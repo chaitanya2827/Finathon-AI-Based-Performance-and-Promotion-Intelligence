@@ -1,0 +1,62 @@
+id,employee_id,title,category,target_value,achieved_value,metric_unit,progress_pct,verification_evidence
+GOAL_EMP001_1,EMP001,Payment Orchestration Modernization,Delivery,100.0,98.0,%,98.0,Migrated billing engine to decoupled event-driven services 3 weeks early with 0 P0 defects.
+GOAL_EMP001_2,EMP001,Core Web Vitals Optimization,Quality,90.0,95.0,score,100.0,Reduced checkout LCP from 2.8s to 0.85s across all mobile checkout flows.
+GOAL_EMP001_3,EMP001,Technical Mentorship & RFC Governance,Leadership,12.0,14.0,sessions,100.0,Mentored 2 junior engineers to independent mid-level feature ownership; reviewed 18 RFCs.
+GOAL_EMP002_1,EMP002,Data Pipeline SLA & Uptime Maintenance,Delivery,95.0,94.0,%,94.0,Sustained 99.4% daily pipeline SLA across 14 upstream data streams.
+GOAL_EMP002_2,EMP002,Snowflake Query Optimization,Cost Optimization,20.0,18.0,queries,90.0,"Refactored 18 high-cost analytical queries, cutting warehouse compute hours."
+GOAL_EMP003_1,EMP003,Enterprise Design System Multi-Platform Adoption,Innovation,80.0,92.0,%,92.0,18 frontend micro-applications transitioned to shared design tokens with 100% WCAG AA compliance.
+GOAL_EMP003_2,EMP003,Customer Portal Usability Benchmark (SUS),Customer,85.0,94.0,score,94.0,System Usability Scale score surveyed across 250 enterprise beta users jumped from 72 to 94.
+GOAL_EMP004_1,EMP004,Engineering Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP004_2,EMP004,Engineering Quality & Process Standards,Quality,100.0,75.0,%,75.0,Audit review verified completion of defined departmental standards (75.0% achieved).
+GOAL_EMP005_1,EMP005,Data Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP005_2,EMP005,Data Quality & Process Standards,Quality,100.0,86.0,%,86.0,Audit review verified completion of defined departmental standards (86.0% achieved).
+GOAL_EMP006_1,EMP006,Design Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP006_2,EMP006,Design Quality & Process Standards,Quality,100.0,97.0,%,97.0,Audit review verified completion of defined departmental standards (97.0% achieved).
+GOAL_EMP007_1,EMP007,Engineering Core Milestone Execution,Delivery,100.0,91.0,%,91.0,Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved).
+GOAL_EMP007_2,EMP007,Engineering Quality & Process Standards,Quality,100.0,74.0,%,74.0,Audit review verified completion of defined departmental standards (74.0% achieved).
+GOAL_EMP008_1,EMP008,Engineering Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP008_2,EMP008,Engineering Quality & Process Standards,Quality,100.0,85.0,%,85.0,Audit review verified completion of defined departmental standards (85.0% achieved).
+GOAL_EMP009_1,EMP009,Engineering Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP009_2,EMP009,Engineering Quality & Process Standards,Quality,100.0,96.0,%,96.0,Audit review verified completion of defined departmental standards (96.0% achieved).
+GOAL_EMP010_1,EMP010,Product Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP010_2,EMP010,Product Quality & Process Standards,Quality,100.0,73.0,%,73.0,Audit review verified completion of defined departmental standards (73.0% achieved).
+GOAL_EMP011_1,EMP011,QA Core Milestone Execution,Delivery,100.0,91.0,%,91.0,Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved).
+GOAL_EMP011_2,EMP011,QA Quality & Process Standards,Quality,100.0,84.0,%,84.0,Audit review verified completion of defined departmental standards (84.0% achieved).
+GOAL_EMP012_1,EMP012,Data Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP012_2,EMP012,Data Quality & Process Standards,Quality,100.0,95.0,%,95.0,Audit review verified completion of defined departmental standards (95.0% achieved).
+GOAL_EMP013_1,EMP013,Engineering Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP013_2,EMP013,Engineering Quality & Process Standards,Quality,100.0,72.0,%,72.0,Audit review verified completion of defined departmental standards (72.0% achieved).
+GOAL_EMP014_1,EMP014,Design Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP014_2,EMP014,Design Quality & Process Standards,Quality,100.0,83.0,%,83.0,Audit review verified completion of defined departmental standards (83.0% achieved).
+GOAL_EMP015_1,EMP015,Operations Core Milestone Execution,Delivery,100.0,91.0,%,91.0,Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved).
+GOAL_EMP015_2,EMP015,Operations Quality & Process Standards,Quality,100.0,94.0,%,94.0,Audit review verified completion of defined departmental standards (94.0% achieved).
+GOAL_EMP016_1,EMP016,Engineering Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP016_2,EMP016,Engineering Quality & Process Standards,Quality,100.0,71.0,%,71.0,Audit review verified completion of defined departmental standards (71.0% achieved).
+GOAL_EMP017_1,EMP017,Data Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP017_2,EMP017,Data Quality & Process Standards,Quality,100.0,82.0,%,82.0,Audit review verified completion of defined departmental standards (82.0% achieved).
+GOAL_EMP018_1,EMP018,QA Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP018_2,EMP018,QA Quality & Process Standards,Quality,100.0,93.0,%,93.0,Audit review verified completion of defined departmental standards (93.0% achieved).
+GOAL_EMP019_1,EMP019,Engineering Core Milestone Execution,Delivery,100.0,91.0,%,91.0,Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved).
+GOAL_EMP019_2,EMP019,Engineering Quality & Process Standards,Quality,100.0,70.0,%,70.0,Audit review verified completion of defined departmental standards (70.0% achieved).
+GOAL_EMP020_1,EMP020,Product Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP020_2,EMP020,Product Quality & Process Standards,Quality,100.0,81.0,%,81.0,Audit review verified completion of defined departmental standards (81.0% achieved).
+GOAL_EMP021_1,EMP021,Engineering Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP021_2,EMP021,Engineering Quality & Process Standards,Quality,100.0,92.0,%,92.0,Audit review verified completion of defined departmental standards (92.0% achieved).
+GOAL_EMP022_1,EMP022,Design Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP022_2,EMP022,Design Quality & Process Standards,Quality,100.0,69.0,%,69.0,Audit review verified completion of defined departmental standards (69.0% achieved).
+GOAL_EMP023_1,EMP023,Engineering Core Milestone Execution,Delivery,100.0,91.0,%,91.0,Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved).
+GOAL_EMP023_2,EMP023,Engineering Quality & Process Standards,Quality,100.0,80.0,%,80.0,Audit review verified completion of defined departmental standards (80.0% achieved).
+GOAL_EMP024_1,EMP024,HR Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP024_2,EMP024,HR Quality & Process Standards,Quality,100.0,91.0,%,91.0,Audit review verified completion of defined departmental standards (91.0% achieved).
+GOAL_EMP025_1,EMP025,Engineering Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP025_2,EMP025,Engineering Quality & Process Standards,Quality,100.0,68.0,%,68.0,Audit review verified completion of defined departmental standards (68.0% achieved).
+GOAL_EMP026_1,EMP026,Data Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP026_2,EMP026,Data Quality & Process Standards,Quality,100.0,79.0,%,79.0,Audit review verified completion of defined departmental standards (79.0% achieved).
+GOAL_EMP027_1,EMP027,Operations Core Milestone Execution,Delivery,100.0,91.0,%,91.0,Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved).
+GOAL_EMP027_2,EMP027,Operations Quality & Process Standards,Quality,100.0,90.0,%,90.0,Audit review verified completion of defined departmental standards (90.0% achieved).
+GOAL_EMP028_1,EMP028,Engineering Core Milestone Execution,Delivery,100.0,70.0,%,70.0,Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved).
+GOAL_EMP028_2,EMP028,Engineering Quality & Process Standards,Quality,100.0,67.0,%,67.0,Audit review verified completion of defined departmental standards (67.0% achieved).
+GOAL_EMP029_1,EMP029,QA Core Milestone Execution,Delivery,100.0,77.0,%,77.0,Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved).
+GOAL_EMP029_2,EMP029,QA Quality & Process Standards,Quality,100.0,78.0,%,78.0,Audit review verified completion of defined departmental standards (78.0% achieved).
+GOAL_EMP030_1,EMP030,Marketing Core Milestone Execution,Delivery,100.0,84.0,%,84.0,Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved).
+GOAL_EMP030_2,EMP030,Marketing Quality & Process Standards,Quality,100.0,89.0,%,89.0,Audit review verified completion of defined departmental standards (89.0% achieved).

@@ -1,0 +1,4752 @@
+{
+  "roles": [
+    {
+      "id": "ROLE_SWE",
+      "name": "Software Engineer",
+      "department": "Engineering",
+      "description": "Core software developer implementing product features and unit tests."
+    },
+    {
+      "id": "ROLE_SR_SWE",
+      "name": "Senior Software Engineer",
+      "department": "Engineering",
+      "description": "Senior engineer leading component architecture, code quality, and technical mentoring."
+    },
+    {
+      "id": "ROLE_TECH_LEAD",
+      "name": "Tech Lead",
+      "department": "Engineering",
+      "description": "Technical leader guiding squad architecture, system design, and engineering excellence."
+    },
+    {
+      "id": "ROLE_DE",
+      "name": "Data Engineer",
+      "department": "Data",
+      "description": "Builds and maintains reliable data pipelines, ETL workflows, and data marts."
+    },
+    {
+      "id": "ROLE_SR_DE",
+      "name": "Senior Data Engineer",
+      "department": "Data",
+      "description": "Senior specialist owning distributed data pipelines, streaming architectures, and cluster orchestration."
+    },
+    {
+      "id": "ROLE_UX_LEAD",
+      "name": "UX Lead",
+      "department": "Design",
+      "description": "Leads product design systems, user experience strategy, and usability benchmarking."
+    },
+    {
+      "id": "ROLE_PROD_DESIGNER",
+      "name": "Product Designer",
+      "department": "Design",
+      "description": "Designs UI mockups, interaction flows, wireframes, and design components."
+    },
+    {
+      "id": "ROLE_DIR_DESIGN",
+      "name": "Director of Product Design",
+      "department": "Design",
+      "description": "Executive design leader overseeing design operations, multi-product design language, and design culture."
+    },
+    {
+      "id": "ROLE_QA",
+      "name": "QA Engineer",
+      "department": "QA",
+      "description": "Builds automated test suites, validates release candidates, and prevents regression defects."
+    },
+    {
+      "id": "ROLE_DEVOPS",
+      "name": "DevOps Engineer",
+      "department": "Engineering",
+      "description": "Owns CI/CD pipelines, container orchestration, cloud infrastructure, and observability."
+    },
+    {
+      "id": "ROLE_PM",
+      "name": "Product Manager",
+      "department": "Product",
+      "description": "Drives product roadmap, user stories, cross-functional prioritization, and launch metrics."
+    },
+    {
+      "id": "ROLE_BA",
+      "name": "Business Analyst",
+      "department": "Operations",
+      "description": "Analyzes operational workflows, bridges business requirements, and builds analytical dashboards."
+    },
+    {
+      "id": "ROLE_HR_ANALYST",
+      "name": "HR Analyst",
+      "department": "HR",
+      "description": "Manages people analytics, retention tracking, and compensation benchmarking."
+    },
+    {
+      "id": "ROLE_VP_ENG",
+      "name": "VP of Engineering",
+      "department": "Engineering",
+      "description": "Executive engineering leader responsible for overall engineering strategy, organization scaling, and delivery."
+    }
+  ],
+  "skills": [
+    {
+      "id": "SKILL_PY",
+      "name": "Python",
+      "category": "Technical",
+      "description": "Core backend development, asynchronous programming, APIs, and data processing in Python."
+    },
+    {
+      "id": "SKILL_JAVA",
+      "name": "Java",
+      "category": "Technical",
+      "description": "Enterprise Java services, Spring Boot, concurrency, and JVM performance tuning."
+    },
+    {
+      "id": "SKILL_CPP",
+      "name": "C++",
+      "category": "Technical",
+      "description": "Low-level systems programming, memory management, and high-performance algorithms."
+    },
+    {
+      "id": "SKILL_SQL",
+      "name": "SQL",
+      "category": "Technical",
+      "description": "Complex relational querying, query optimization, indexing strategies, and schema modeling."
+    },
+    {
+      "id": "SKILL_DATA_ANALYSIS",
+      "name": "Data Analysis",
+      "category": "Technical",
+      "description": "Exploratory data analysis, statistical modeling, data visualization, and reporting."
+    },
+    {
+      "id": "SKILL_ML",
+      "name": "Machine Learning",
+      "category": "Technical",
+      "description": "Model training, feature engineering, evaluation metrics, and inference serving."
+    },
+    {
+      "id": "SKILL_SYS_DESIGN",
+      "name": "System Design",
+      "category": "Architecture",
+      "description": "High-level distributed systems architecture, microservices decomposition, caching, and resiliency."
+    },
+    {
+      "id": "SKILL_DIST_SYS",
+      "name": "Distributed Systems",
+      "category": "Architecture",
+      "description": "Consensus protocols, event streaming, distributed caching, partition tolerance, and high availability."
+    },
+    {
+      "id": "SKILL_K8S",
+      "name": "Kubernetes",
+      "category": "Cloud & DevOps",
+      "description": "Container orchestration, Helm charts, cloud-native deployments, and cluster observability."
+    },
+    {
+      "id": "SKILL_CLOUD",
+      "name": "Cloud Computing",
+      "category": "Cloud & DevOps",
+      "description": "AWS, GCP, or Azure infrastructure design, IAM, cost optimization, and serverless compute."
+    },
+    {
+      "id": "SKILL_LEADERSHIP",
+      "name": "Leadership",
+      "category": "Leadership & Soft Skills",
+      "description": "Technical direction, cross-functional advocacy, unblocking team members, and initiative driving."
+    },
+    {
+      "id": "SKILL_COMM",
+      "name": "Communication",
+      "category": "Leadership & Soft Skills",
+      "description": "Clear technical documentation, RFC authorship, stakeholder management, and cross-team alignment."
+    },
+    {
+      "id": "SKILL_UX",
+      "name": "UX Design",
+      "category": "Product & Design",
+      "description": "User journey mapping, wireframing, interactive prototyping, usability testing, and accessibility."
+    },
+    {
+      "id": "SKILL_PROJ_MGT",
+      "name": "Project Management",
+      "category": "Leadership & Soft Skills",
+      "description": "Milestone planning, sprint cadence management, risk mitigation, and on-time delivery tracking."
+    },
+    {
+      "id": "SKILL_TESTING",
+      "name": "Testing",
+      "category": "Engineering Quality",
+      "description": "Unit testing, integration testing, end-to-end automation, and test coverage strategies."
+    },
+    {
+      "id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "category": "Cloud & DevOps",
+      "description": "CI/CD automation, infrastructure as code, monitoring, and incident response."
+    },
+    {
+      "id": "SKILL_PROB_SOLV",
+      "name": "Problem Solving",
+      "category": "Leadership & Soft Skills",
+      "description": "Root cause analysis, debugging complex failures, and creative algorithmic solutions."
+    },
+    {
+      "id": "SKILL_COLLAB",
+      "name": "Team Collaboration",
+      "category": "Leadership & Soft Skills",
+      "description": "Active sprint participation, constructive code review, pairing, and empathy."
+    }
+  ],
+  "role_requirements": [
+    {
+      "id": "REQ_SWE_1",
+      "role_id": "ROLE_SWE",
+      "skill_id": "SKILL_PY",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SWE_2",
+      "role_id": "ROLE_SWE",
+      "skill_id": "SKILL_SQL",
+      "required_level": 2,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SWE_3",
+      "role_id": "ROLE_SWE",
+      "skill_id": "SKILL_TESTING",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SWE_4",
+      "role_id": "ROLE_SWE",
+      "skill_id": "SKILL_COLLAB",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_SWE_1",
+      "role_id": "ROLE_SR_SWE",
+      "skill_id": "SKILL_PY",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_SWE_2",
+      "role_id": "ROLE_SR_SWE",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_SWE_3",
+      "role_id": "ROLE_SR_SWE",
+      "skill_id": "SKILL_TESTING",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_SWE_4",
+      "role_id": "ROLE_SR_SWE",
+      "skill_id": "SKILL_COMM",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_SWE_5",
+      "role_id": "ROLE_SR_SWE",
+      "skill_id": "SKILL_CLOUD",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "REQ_TL_1",
+      "role_id": "ROLE_TECH_LEAD",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_TL_2",
+      "role_id": "ROLE_TECH_LEAD",
+      "skill_id": "SKILL_PY",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_TL_3",
+      "role_id": "ROLE_TECH_LEAD",
+      "skill_id": "SKILL_LEADERSHIP",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_TL_4",
+      "role_id": "ROLE_TECH_LEAD",
+      "skill_id": "SKILL_COMM",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_TL_5",
+      "role_id": "ROLE_TECH_LEAD",
+      "skill_id": "SKILL_PROJ_MGT",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "REQ_TL_6",
+      "role_id": "ROLE_TECH_LEAD",
+      "skill_id": "SKILL_K8S",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "REQ_DE_1",
+      "role_id": "ROLE_DE",
+      "skill_id": "SKILL_PY",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_DE_2",
+      "role_id": "ROLE_DE",
+      "skill_id": "SKILL_SQL",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_DE_3",
+      "role_id": "ROLE_DE",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_DE_4",
+      "role_id": "ROLE_DE",
+      "skill_id": "SKILL_COLLAB",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_DE_1",
+      "role_id": "ROLE_SR_DE",
+      "skill_id": "SKILL_PY",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_DE_2",
+      "role_id": "ROLE_SR_DE",
+      "skill_id": "SKILL_SQL",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_DE_3",
+      "role_id": "ROLE_SR_DE",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_DE_4",
+      "role_id": "ROLE_SR_DE",
+      "skill_id": "SKILL_DIST_SYS",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_DE_5",
+      "role_id": "ROLE_SR_DE",
+      "skill_id": "SKILL_K8S",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_SR_DE_6",
+      "role_id": "ROLE_SR_DE",
+      "skill_id": "SKILL_CLOUD",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "REQ_UX_LEAD_1",
+      "role_id": "ROLE_UX_LEAD",
+      "skill_id": "SKILL_UX",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_UX_LEAD_2",
+      "role_id": "ROLE_UX_LEAD",
+      "skill_id": "SKILL_LEADERSHIP",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_UX_LEAD_3",
+      "role_id": "ROLE_UX_LEAD",
+      "skill_id": "SKILL_COMM",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_UX_LEAD_4",
+      "role_id": "ROLE_UX_LEAD",
+      "skill_id": "SKILL_PROJ_MGT",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "REQ_DIR_DES_1",
+      "role_id": "ROLE_DIR_DESIGN",
+      "skill_id": "SKILL_UX",
+      "required_level": 5,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_DIR_DES_2",
+      "role_id": "ROLE_DIR_DESIGN",
+      "skill_id": "SKILL_LEADERSHIP",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_DIR_DES_3",
+      "role_id": "ROLE_DIR_DESIGN",
+      "skill_id": "SKILL_COMM",
+      "required_level": 5,
+      "is_mandatory": true
+    },
+    {
+      "id": "REQ_DIR_DES_4",
+      "role_id": "ROLE_DIR_DESIGN",
+      "skill_id": "SKILL_PROJ_MGT",
+      "required_level": 4,
+      "is_mandatory": true
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "employee_id": "EMP001",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SR_SWE",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP004",
+      "hire_date": "2023-03-15",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 2,
+      "employee_id": "EMP002",
+      "name": "Marcus Chen",
+      "email": "marcus.chen@zerobugs.example",
+      "department": "Data",
+      "current_role_id": "ROLE_DE",
+      "target_role_id": "ROLE_SR_DE",
+      "manager_id": "EMP005",
+      "hire_date": "2024-01-10",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 3,
+      "employee_id": "EMP003",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@zerobugs.example",
+      "department": "Design",
+      "current_role_id": "ROLE_UX_LEAD",
+      "target_role_id": "ROLE_DIR_DESIGN",
+      "manager_id": "EMP006",
+      "hire_date": "2022-09-01",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 4,
+      "employee_id": "EMP004",
+      "name": "David Vance",
+      "email": "david.vance@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_VP_ENG",
+      "target_role_id": "ROLE_VP_ENG",
+      "manager_id": null,
+      "hire_date": "2021-01-15",
+      "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 5,
+      "employee_id": "EMP005",
+      "name": "Sarah Jenkins",
+      "email": "sarah.jenkins@zerobugs.example",
+      "department": "Data",
+      "current_role_id": "ROLE_SR_DE",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP004",
+      "hire_date": "2021-06-20",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 6,
+      "employee_id": "EMP006",
+      "name": "Robert Sterling",
+      "email": "robert.sterling@zerobugs.example",
+      "department": "Design",
+      "current_role_id": "ROLE_DIR_DESIGN",
+      "target_role_id": "ROLE_DIR_DESIGN",
+      "manager_id": "EMP004",
+      "hire_date": "2021-04-12",
+      "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 7,
+      "employee_id": "EMP007",
+      "name": "Alexander Wright",
+      "email": "alexander.wright@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SR_SWE",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP004",
+      "hire_date": "2022-11-05",
+      "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 8,
+      "employee_id": "EMP008",
+      "name": "Sophia Kim",
+      "email": "sophia.kim@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SWE",
+      "target_role_id": "ROLE_SR_SWE",
+      "manager_id": "EMP001",
+      "hire_date": "2024-03-01",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 9,
+      "employee_id": "EMP009",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_DEVOPS",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP004",
+      "hire_date": "2023-08-15",
+      "avatar_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 10,
+      "employee_id": "EMP010",
+      "name": "Chloe Bennett",
+      "email": "chloe.bennett@zerobugs.example",
+      "department": "Product",
+      "current_role_id": "ROLE_PM",
+      "target_role_id": "ROLE_PM",
+      "manager_id": "EMP004",
+      "hire_date": "2023-02-10",
+      "avatar_url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 11,
+      "employee_id": "EMP011",
+      "name": "Liam O'Connor",
+      "email": "liam.oconnor@zerobugs.example",
+      "department": "QA",
+      "current_role_id": "ROLE_QA",
+      "target_role_id": "ROLE_SR_SWE",
+      "manager_id": "EMP004",
+      "hire_date": "2024-02-15",
+      "avatar_url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 12,
+      "employee_id": "EMP012",
+      "name": "Maya Patel",
+      "email": "maya.patel@zerobugs.example",
+      "department": "Data",
+      "current_role_id": "ROLE_SR_DE",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP005",
+      "hire_date": "2022-05-18",
+      "avatar_url": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 13,
+      "employee_id": "EMP013",
+      "name": "Lucas Silva",
+      "email": "lucas.silva@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SWE",
+      "target_role_id": "ROLE_SR_SWE",
+      "manager_id": "EMP001",
+      "hire_date": "2024-04-10",
+      "avatar_url": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 14,
+      "employee_id": "EMP014",
+      "name": "Olivia Martinez",
+      "email": "olivia.martinez@zerobugs.example",
+      "department": "Design",
+      "current_role_id": "ROLE_PROD_DESIGNER",
+      "target_role_id": "ROLE_UX_LEAD",
+      "manager_id": "EMP003",
+      "hire_date": "2023-07-22",
+      "avatar_url": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 15,
+      "employee_id": "EMP015",
+      "name": "Ethan Davis",
+      "email": "ethan.davis@zerobugs.example",
+      "department": "Operations",
+      "current_role_id": "ROLE_BA",
+      "target_role_id": "ROLE_PM",
+      "manager_id": "EMP010",
+      "hire_date": "2023-09-01",
+      "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 16,
+      "employee_id": "EMP016",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SR_SWE",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP004",
+      "hire_date": "2022-10-15",
+      "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 17,
+      "employee_id": "EMP017",
+      "name": "Noah Taylor",
+      "email": "noah.taylor@zerobugs.example",
+      "department": "Data",
+      "current_role_id": "ROLE_DE",
+      "target_role_id": "ROLE_SR_DE",
+      "manager_id": "EMP005",
+      "hire_date": "2024-05-12",
+      "avatar_url": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 18,
+      "employee_id": "EMP018",
+      "name": "Emma Watson",
+      "email": "emma.watson@zerobugs.example",
+      "department": "QA",
+      "current_role_id": "ROLE_QA",
+      "target_role_id": "ROLE_QA",
+      "manager_id": "EMP004",
+      "hire_date": "2023-11-20",
+      "avatar_url": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 19,
+      "employee_id": "EMP019",
+      "name": "Carlos Gomez",
+      "email": "carlos.gomez@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_DEVOPS",
+      "target_role_id": "ROLE_DEVOPS",
+      "manager_id": "EMP004",
+      "hire_date": "2023-04-18",
+      "avatar_url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 20,
+      "employee_id": "EMP020",
+      "name": "Fatimah Al-Mansoor",
+      "email": "fatimah.almansoor@zerobugs.example",
+      "department": "Product",
+      "current_role_id": "ROLE_PM",
+      "target_role_id": "ROLE_PM",
+      "manager_id": "EMP004",
+      "hire_date": "2022-08-30",
+      "avatar_url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 21,
+      "employee_id": "EMP021",
+      "name": "Benjamin Miller",
+      "email": "benjamin.miller@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SWE",
+      "target_role_id": "ROLE_SR_SWE",
+      "manager_id": "EMP007",
+      "hire_date": "2024-06-01",
+      "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 22,
+      "employee_id": "EMP022",
+      "name": "Zoe Anderson",
+      "email": "zoe.anderson@zerobugs.example",
+      "department": "Design",
+      "current_role_id": "ROLE_PROD_DESIGNER",
+      "target_role_id": "ROLE_UX_LEAD",
+      "manager_id": "EMP003",
+      "hire_date": "2023-12-05",
+      "avatar_url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 23,
+      "employee_id": "EMP023",
+      "name": "Vikram Singhania",
+      "email": "vikram.singhania@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_TECH_LEAD",
+      "target_role_id": "ROLE_VP_ENG",
+      "manager_id": "EMP004",
+      "hire_date": "2021-08-10",
+      "avatar_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 24,
+      "employee_id": "EMP024",
+      "name": "Hannah Schmidt",
+      "email": "hannah.schmidt@zerobugs.example",
+      "department": "HR",
+      "current_role_id": "ROLE_HR_ANALYST",
+      "target_role_id": "ROLE_HR_ANALYST",
+      "manager_id": "EMP004",
+      "hire_date": "2023-01-20",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 25,
+      "employee_id": "EMP025",
+      "name": "Daniel Lee",
+      "email": "daniel.lee@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SR_SWE",
+      "target_role_id": "ROLE_TECH_LEAD",
+      "manager_id": "EMP004",
+      "hire_date": "2022-07-15",
+      "avatar_url": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 26,
+      "employee_id": "EMP026",
+      "name": "Isabella Rossi",
+      "email": "isabella.rossi@zerobugs.example",
+      "department": "Data",
+      "current_role_id": "ROLE_DE",
+      "target_role_id": "ROLE_SR_DE",
+      "manager_id": "EMP005",
+      "hire_date": "2024-02-28",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 27,
+      "employee_id": "EMP027",
+      "name": "James Wilson",
+      "email": "james.wilson@zerobugs.example",
+      "department": "Operations",
+      "current_role_id": "ROLE_BA",
+      "target_role_id": "ROLE_BA",
+      "manager_id": "EMP010",
+      "hire_date": "2023-06-11",
+      "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 28,
+      "employee_id": "EMP028",
+      "name": "Aisha Khan",
+      "email": "aisha.khan@zerobugs.example",
+      "department": "Engineering",
+      "current_role_id": "ROLE_SWE",
+      "target_role_id": "ROLE_SR_SWE",
+      "manager_id": "EMP007",
+      "hire_date": "2024-07-01",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 29,
+      "employee_id": "EMP029",
+      "name": "Ryan Murphy",
+      "email": "ryan.murphy@zerobugs.example",
+      "department": "QA",
+      "current_role_id": "ROLE_QA",
+      "target_role_id": "ROLE_QA",
+      "manager_id": "EMP004",
+      "hire_date": "2023-10-05",
+      "avatar_url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 30,
+      "employee_id": "EMP030",
+      "name": "Stephanie Clark",
+      "email": "stephanie.clark@zerobugs.example",
+      "department": "Marketing",
+      "current_role_id": "ROLE_BA",
+      "target_role_id": "ROLE_PM",
+      "manager_id": "EMP010",
+      "hire_date": "2023-03-20",
+      "avatar_url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80"
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_EMP001_1",
+      "employee_id": "EMP001",
+      "title": "Payment Orchestration Modernization",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 98.0,
+      "metric_unit": "%",
+      "progress_pct": 98.0,
+      "verification_evidence": "Migrated billing engine to decoupled event-driven services 3 weeks early with 0 P0 defects."
+    },
+    {
+      "id": "GOAL_EMP001_2",
+      "employee_id": "EMP001",
+      "title": "Core Web Vitals Optimization",
+      "category": "Quality",
+      "target_value": 90.0,
+      "achieved_value": 95.0,
+      "metric_unit": "score",
+      "progress_pct": 100.0,
+      "verification_evidence": "Reduced checkout LCP from 2.8s to 0.85s across all mobile checkout flows."
+    },
+    {
+      "id": "GOAL_EMP001_3",
+      "employee_id": "EMP001",
+      "title": "Technical Mentorship & RFC Governance",
+      "category": "Leadership",
+      "target_value": 12.0,
+      "achieved_value": 14.0,
+      "metric_unit": "sessions",
+      "progress_pct": 100.0,
+      "verification_evidence": "Mentored 2 junior engineers to independent mid-level feature ownership; reviewed 18 RFCs."
+    },
+    {
+      "id": "GOAL_EMP002_1",
+      "employee_id": "EMP002",
+      "title": "Data Pipeline SLA & Uptime Maintenance",
+      "category": "Delivery",
+      "target_value": 95.0,
+      "achieved_value": 94.0,
+      "metric_unit": "%",
+      "progress_pct": 94.0,
+      "verification_evidence": "Sustained 99.4% daily pipeline SLA across 14 upstream data streams."
+    },
+    {
+      "id": "GOAL_EMP002_2",
+      "employee_id": "EMP002",
+      "title": "Snowflake Query Optimization",
+      "category": "Cost Optimization",
+      "target_value": 20.0,
+      "achieved_value": 18.0,
+      "metric_unit": "queries",
+      "progress_pct": 90.0,
+      "verification_evidence": "Refactored 18 high-cost analytical queries, cutting warehouse compute hours."
+    },
+    {
+      "id": "GOAL_EMP003_1",
+      "employee_id": "EMP003",
+      "title": "Enterprise Design System Multi-Platform Adoption",
+      "category": "Innovation",
+      "target_value": 80.0,
+      "achieved_value": 92.0,
+      "metric_unit": "%",
+      "progress_pct": 92.0,
+      "verification_evidence": "18 frontend micro-applications transitioned to shared design tokens with 100% WCAG AA compliance."
+    },
+    {
+      "id": "GOAL_EMP003_2",
+      "employee_id": "EMP003",
+      "title": "Customer Portal Usability Benchmark (SUS)",
+      "category": "Customer",
+      "target_value": 85.0,
+      "achieved_value": 94.0,
+      "metric_unit": "score",
+      "progress_pct": 94.0,
+      "verification_evidence": "System Usability Scale score surveyed across 250 enterprise beta users jumped from 72 to 94."
+    },
+    {
+      "id": "GOAL_EMP004_1",
+      "employee_id": "EMP004",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP004_2",
+      "employee_id": "EMP004",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 75.0,
+      "metric_unit": "%",
+      "progress_pct": 75.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (75.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP005_1",
+      "employee_id": "EMP005",
+      "title": "Data Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP005_2",
+      "employee_id": "EMP005",
+      "title": "Data Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 86.0,
+      "metric_unit": "%",
+      "progress_pct": 86.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (86.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP006_1",
+      "employee_id": "EMP006",
+      "title": "Design Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP006_2",
+      "employee_id": "EMP006",
+      "title": "Design Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 97.0,
+      "metric_unit": "%",
+      "progress_pct": 97.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (97.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP007_1",
+      "employee_id": "EMP007",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP007_2",
+      "employee_id": "EMP007",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 74.0,
+      "metric_unit": "%",
+      "progress_pct": 74.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (74.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP008_1",
+      "employee_id": "EMP008",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP008_2",
+      "employee_id": "EMP008",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 85.0,
+      "metric_unit": "%",
+      "progress_pct": 85.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (85.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP009_1",
+      "employee_id": "EMP009",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP009_2",
+      "employee_id": "EMP009",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 96.0,
+      "metric_unit": "%",
+      "progress_pct": 96.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (96.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP010_1",
+      "employee_id": "EMP010",
+      "title": "Product Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP010_2",
+      "employee_id": "EMP010",
+      "title": "Product Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 73.0,
+      "metric_unit": "%",
+      "progress_pct": 73.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (73.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP011_1",
+      "employee_id": "EMP011",
+      "title": "QA Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP011_2",
+      "employee_id": "EMP011",
+      "title": "QA Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP012_1",
+      "employee_id": "EMP012",
+      "title": "Data Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP012_2",
+      "employee_id": "EMP012",
+      "title": "Data Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 95.0,
+      "metric_unit": "%",
+      "progress_pct": 95.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (95.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP013_1",
+      "employee_id": "EMP013",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP013_2",
+      "employee_id": "EMP013",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 72.0,
+      "metric_unit": "%",
+      "progress_pct": 72.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (72.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP014_1",
+      "employee_id": "EMP014",
+      "title": "Design Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP014_2",
+      "employee_id": "EMP014",
+      "title": "Design Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 83.0,
+      "metric_unit": "%",
+      "progress_pct": 83.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (83.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP015_1",
+      "employee_id": "EMP015",
+      "title": "Operations Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP015_2",
+      "employee_id": "EMP015",
+      "title": "Operations Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 94.0,
+      "metric_unit": "%",
+      "progress_pct": 94.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (94.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP016_1",
+      "employee_id": "EMP016",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP016_2",
+      "employee_id": "EMP016",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 71.0,
+      "metric_unit": "%",
+      "progress_pct": 71.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (71.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP017_1",
+      "employee_id": "EMP017",
+      "title": "Data Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP017_2",
+      "employee_id": "EMP017",
+      "title": "Data Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 82.0,
+      "metric_unit": "%",
+      "progress_pct": 82.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (82.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP018_1",
+      "employee_id": "EMP018",
+      "title": "QA Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP018_2",
+      "employee_id": "EMP018",
+      "title": "QA Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 93.0,
+      "metric_unit": "%",
+      "progress_pct": 93.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (93.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP019_1",
+      "employee_id": "EMP019",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP019_2",
+      "employee_id": "EMP019",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP020_1",
+      "employee_id": "EMP020",
+      "title": "Product Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP020_2",
+      "employee_id": "EMP020",
+      "title": "Product Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 81.0,
+      "metric_unit": "%",
+      "progress_pct": 81.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (81.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP021_1",
+      "employee_id": "EMP021",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP021_2",
+      "employee_id": "EMP021",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 92.0,
+      "metric_unit": "%",
+      "progress_pct": 92.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (92.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP022_1",
+      "employee_id": "EMP022",
+      "title": "Design Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP022_2",
+      "employee_id": "EMP022",
+      "title": "Design Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 69.0,
+      "metric_unit": "%",
+      "progress_pct": 69.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (69.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP023_1",
+      "employee_id": "EMP023",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP023_2",
+      "employee_id": "EMP023",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 80.0,
+      "metric_unit": "%",
+      "progress_pct": 80.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (80.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP024_1",
+      "employee_id": "EMP024",
+      "title": "HR Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP024_2",
+      "employee_id": "EMP024",
+      "title": "HR Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP025_1",
+      "employee_id": "EMP025",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP025_2",
+      "employee_id": "EMP025",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 68.0,
+      "metric_unit": "%",
+      "progress_pct": 68.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (68.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP026_1",
+      "employee_id": "EMP026",
+      "title": "Data Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP026_2",
+      "employee_id": "EMP026",
+      "title": "Data Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 79.0,
+      "metric_unit": "%",
+      "progress_pct": 79.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (79.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP027_1",
+      "employee_id": "EMP027",
+      "title": "Operations Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 91.0,
+      "metric_unit": "%",
+      "progress_pct": 91.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (91.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP027_2",
+      "employee_id": "EMP027",
+      "title": "Operations Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 90.0,
+      "metric_unit": "%",
+      "progress_pct": 90.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (90.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP028_1",
+      "employee_id": "EMP028",
+      "title": "Engineering Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 70.0,
+      "metric_unit": "%",
+      "progress_pct": 70.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (70.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP028_2",
+      "employee_id": "EMP028",
+      "title": "Engineering Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 67.0,
+      "metric_unit": "%",
+      "progress_pct": 67.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (67.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP029_1",
+      "employee_id": "EMP029",
+      "title": "QA Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 77.0,
+      "metric_unit": "%",
+      "progress_pct": 77.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (77.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP029_2",
+      "employee_id": "EMP029",
+      "title": "QA Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 78.0,
+      "metric_unit": "%",
+      "progress_pct": 78.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (78.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP030_1",
+      "employee_id": "EMP030",
+      "title": "Marketing Core Milestone Execution",
+      "category": "Delivery",
+      "target_value": 100.0,
+      "achieved_value": 84.0,
+      "metric_unit": "%",
+      "progress_pct": 84.0,
+      "verification_evidence": "Quarterly operational deliverable tracked in company Jira sprint board (84.0% achieved)."
+    },
+    {
+      "id": "GOAL_EMP030_2",
+      "employee_id": "EMP030",
+      "title": "Marketing Quality & Process Standards",
+      "category": "Quality",
+      "target_value": 100.0,
+      "achieved_value": 89.0,
+      "metric_unit": "%",
+      "progress_pct": 89.0,
+      "verification_evidence": "Audit review verified completion of defined departmental standards (89.0% achieved)."
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ_EMP001_1",
+      "employee_id": "EMP001",
+      "project_name": "Global Payment Engine v2",
+      "role_in_project": "Lead Architect & Primary Implementer",
+      "deliverables": "Idempotent payment pipeline with multi-gateway failover routing.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.9,
+      "outcome_evidence": "Production release delivered on scheduled sprint; sustained $420,000 annualized AWS savings."
+    },
+    {
+      "id": "PRJ_EMP001_2",
+      "employee_id": "EMP001",
+      "project_name": "Zero-Downtime Ledger Migration",
+      "role_in_project": "Technical Lead",
+      "deliverables": "Automated blue-green migration pipeline for 14M customer ledger records.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.8,
+      "outcome_evidence": "Completed data migration across 3 regions with zero downtime and 100% record checksum validation."
+    },
+    {
+      "id": "PRJ_EMP002_1",
+      "employee_id": "EMP002",
+      "project_name": "Real-time Telemetry Ingestion Hub",
+      "role_in_project": "Data Engineer",
+      "deliverables": "Kafka-to-Warehouse ETL ingestion pipeline processing telemetry.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.4,
+      "outcome_evidence": "Ingested 15M daily event payload with sub-minute latency and schema drift quarantine."
+    },
+    {
+      "id": "PRJ_EMP003_1",
+      "employee_id": "EMP003",
+      "project_name": "Enterprise Portal Design System Overhaul",
+      "role_in_project": "UX Lead & Principal Designer",
+      "deliverables": "Figma component library, motion guidelines, and tokenized design-to-code sync pipeline.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Reduced UX handoff revision loops by 60% and accelerated UI sprint velocity by 2.4x."
+    },
+    {
+      "id": "PRJ_EMP004_1",
+      "employee_id": "EMP004",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.8,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP004_2",
+      "employee_id": "EMP004",
+      "project_name": "Engineering Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": 5.0,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP005_1",
+      "employee_id": "EMP005",
+      "project_name": "Data Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Data quarterly roadmap.",
+      "delivered_on_time": false,
+      "code_quality_score": 3.7,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP006_1",
+      "employee_id": "EMP006",
+      "project_name": "Design Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Design quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP006_2",
+      "employee_id": "EMP006",
+      "project_name": "Design Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP007_1",
+      "employee_id": "EMP007",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.3,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP008_1",
+      "employee_id": "EMP008",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.6,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP008_2",
+      "employee_id": "EMP008",
+      "project_name": "Engineering Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.8,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP009_1",
+      "employee_id": "EMP009",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.9,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP010_1",
+      "employee_id": "EMP010",
+      "project_name": "Product Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Product quarterly roadmap.",
+      "delivered_on_time": false,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP010_2",
+      "employee_id": "EMP010",
+      "project_name": "Product Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP011_1",
+      "employee_id": "EMP011",
+      "project_name": "QA Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for QA quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP012_1",
+      "employee_id": "EMP012",
+      "project_name": "Data Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Data quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.4,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP012_2",
+      "employee_id": "EMP012",
+      "project_name": "Data Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.6,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP013_1",
+      "employee_id": "EMP013",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.7,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP014_1",
+      "employee_id": "EMP014",
+      "project_name": "Design Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Design quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP014_2",
+      "employee_id": "EMP014",
+      "project_name": "Design Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP015_1",
+      "employee_id": "EMP015",
+      "project_name": "Operations Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Operations quarterly roadmap.",
+      "delivered_on_time": false,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP016_1",
+      "employee_id": "EMP016",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.2,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP016_2",
+      "employee_id": "EMP016",
+      "project_name": "Engineering Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.4,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP017_1",
+      "employee_id": "EMP017",
+      "project_name": "Data Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Data quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.5,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP018_1",
+      "employee_id": "EMP018",
+      "project_name": "QA Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for QA quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP018_2",
+      "employee_id": "EMP018",
+      "project_name": "QA Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP019_1",
+      "employee_id": "EMP019",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 3.7,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP020_1",
+      "employee_id": "EMP020",
+      "project_name": "Product Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Product quarterly roadmap.",
+      "delivered_on_time": false,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP020_2",
+      "employee_id": "EMP020",
+      "project_name": "Product Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP021_1",
+      "employee_id": "EMP021",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.3,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP022_1",
+      "employee_id": "EMP022",
+      "project_name": "Design Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Design quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP022_2",
+      "employee_id": "EMP022",
+      "project_name": "Design Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP023_1",
+      "employee_id": "EMP023",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.9,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP024_1",
+      "employee_id": "EMP024",
+      "project_name": "HR Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for HR quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP024_2",
+      "employee_id": "EMP024",
+      "project_name": "HR Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP025_1",
+      "employee_id": "EMP025",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": false,
+      "code_quality_score": 4.1,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP026_1",
+      "employee_id": "EMP026",
+      "project_name": "Data Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Data quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.4,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP026_2",
+      "employee_id": "EMP026",
+      "project_name": "Data Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": 4.6,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP027_1",
+      "employee_id": "EMP027",
+      "project_name": "Operations Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Operations quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP028_1",
+      "employee_id": "EMP028",
+      "project_name": "Engineering Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Engineering quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": 3.6,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP028_2",
+      "employee_id": "EMP028",
+      "project_name": "Engineering Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": 3.8,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    },
+    {
+      "id": "PRJ_EMP029_1",
+      "employee_id": "EMP029",
+      "project_name": "QA Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for QA quarterly roadmap.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP030_1",
+      "employee_id": "EMP030",
+      "project_name": "Marketing Initiative Alpha",
+      "role_in_project": "Core Contributor",
+      "deliverables": "Delivered functional deliverables for Marketing quarterly roadmap.",
+      "delivered_on_time": false,
+      "code_quality_score": null,
+      "outcome_evidence": "Successfully deployed to production and integrated into departmental operations."
+    },
+    {
+      "id": "PRJ_EMP030_2",
+      "employee_id": "EMP030",
+      "project_name": "Marketing Continuous Improvement Beta",
+      "role_in_project": "Specialist",
+      "deliverables": "Workflow optimization documentation and procedural updates.",
+      "delivered_on_time": true,
+      "code_quality_score": null,
+      "outcome_evidence": "Team retrospective recognized streamlined sprint turnaround."
+    }
+  ],
+  "feedback": [
+    {
+      "id": "FB_EMP001_1",
+      "employee_id": "EMP001",
+      "reviewer_type": "peer",
+      "rating": 4.9,
+      "comments": "Elena is the technical backbone of our squad. Her architecture clarity and patient mentoring raise the entire team bar.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP001_2",
+      "employee_id": "EMP001",
+      "reviewer_type": "stakeholder",
+      "rating": 5.0,
+      "comments": "Elena's design docs are the gold standard for our organization. She already operates at Tech Lead caliber.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP001_3",
+      "employee_id": "EMP001",
+      "reviewer_type": "peer",
+      "rating": 4.8,
+      "comments": "Great collaborator who bridges complex distributed systems trade-offs into actionable sprint tasks.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP002_1",
+      "employee_id": "EMP002",
+      "reviewer_type": "peer",
+      "rating": 4.3,
+      "comments": "Marcus is exceptionally dependable on daily batch pipelines and writes immaculate SQL transformations.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP002_2",
+      "employee_id": "EMP002",
+      "reviewer_type": "stakeholder",
+      "rating": 4.2,
+      "comments": "Great collaborator on data modeling. Would benefit from deeper expertise in distributed systems and cluster ops.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP003_1",
+      "employee_id": "EMP003",
+      "reviewer_type": "peer",
+      "rating": 4.9,
+      "comments": "Priya produces the cleanest, most accessible component specs in the company. Working with her is a joy.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP003_2",
+      "employee_id": "EMP003",
+      "reviewer_type": "stakeholder",
+      "rating": 4.8,
+      "comments": "Priya's customer research fundamentally transformed our enterprise portal adoption. She commands deep cross-functional respect.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP003_3",
+      "employee_id": "EMP003",
+      "reviewer_type": "peer",
+      "rating": 4.8,
+      "comments": "Visionary designer who proactively aligns engineering, product, and brand goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP004_1",
+      "employee_id": "EMP004",
+      "reviewer_type": "peer",
+      "rating": 3.6,
+      "comments": "David Vance works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP004_2",
+      "employee_id": "EMP004",
+      "reviewer_type": "stakeholder",
+      "rating": 4.2,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP005_1",
+      "employee_id": "EMP005",
+      "reviewer_type": "peer",
+      "rating": 4.0,
+      "comments": "Sarah Jenkins works well within the Data team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP005_2",
+      "employee_id": "EMP005",
+      "reviewer_type": "stakeholder",
+      "rating": 4.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP006_1",
+      "employee_id": "EMP006",
+      "reviewer_type": "peer",
+      "rating": 4.4,
+      "comments": "Robert Sterling works well within the Design team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP006_2",
+      "employee_id": "EMP006",
+      "reviewer_type": "stakeholder",
+      "rating": 3.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP007_1",
+      "employee_id": "EMP007",
+      "reviewer_type": "peer",
+      "rating": 4.8,
+      "comments": "Alexander Wright works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP007_2",
+      "employee_id": "EMP007",
+      "reviewer_type": "stakeholder",
+      "rating": 4.4,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP008_1",
+      "employee_id": "EMP008",
+      "reviewer_type": "peer",
+      "rating": 3.7,
+      "comments": "Sophia Kim works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP008_2",
+      "employee_id": "EMP008",
+      "reviewer_type": "stakeholder",
+      "rating": 3.4,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP009_1",
+      "employee_id": "EMP009",
+      "reviewer_type": "peer",
+      "rating": 4.1,
+      "comments": "Rahul Verma works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP009_2",
+      "employee_id": "EMP009",
+      "reviewer_type": "stakeholder",
+      "rating": 4.0,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP010_1",
+      "employee_id": "EMP010",
+      "reviewer_type": "peer",
+      "rating": 4.5,
+      "comments": "Chloe Bennett works well within the Product team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP010_2",
+      "employee_id": "EMP010",
+      "reviewer_type": "stakeholder",
+      "rating": 4.6,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP011_1",
+      "employee_id": "EMP011",
+      "reviewer_type": "peer",
+      "rating": 4.9,
+      "comments": "Liam O'Connor works well within the QA team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP011_2",
+      "employee_id": "EMP011",
+      "reviewer_type": "stakeholder",
+      "rating": 3.6,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP012_1",
+      "employee_id": "EMP012",
+      "reviewer_type": "peer",
+      "rating": 3.8,
+      "comments": "Maya Patel works well within the Data team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP012_2",
+      "employee_id": "EMP012",
+      "reviewer_type": "stakeholder",
+      "rating": 4.2,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP013_1",
+      "employee_id": "EMP013",
+      "reviewer_type": "peer",
+      "rating": 4.2,
+      "comments": "Lucas Silva works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP013_2",
+      "employee_id": "EMP013",
+      "reviewer_type": "stakeholder",
+      "rating": 4.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP014_1",
+      "employee_id": "EMP014",
+      "reviewer_type": "peer",
+      "rating": 4.6,
+      "comments": "Olivia Martinez works well within the Design team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP014_2",
+      "employee_id": "EMP014",
+      "reviewer_type": "stakeholder",
+      "rating": 3.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP015_1",
+      "employee_id": "EMP015",
+      "reviewer_type": "peer",
+      "rating": 3.5,
+      "comments": "Ethan Davis works well within the Operations team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP015_2",
+      "employee_id": "EMP015",
+      "reviewer_type": "stakeholder",
+      "rating": 4.4,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP016_1",
+      "employee_id": "EMP016",
+      "reviewer_type": "peer",
+      "rating": 3.9,
+      "comments": "Ananya Iyer works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP016_2",
+      "employee_id": "EMP016",
+      "reviewer_type": "stakeholder",
+      "rating": 3.4,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP017_1",
+      "employee_id": "EMP017",
+      "reviewer_type": "peer",
+      "rating": 4.3,
+      "comments": "Noah Taylor works well within the Data team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP017_2",
+      "employee_id": "EMP017",
+      "reviewer_type": "stakeholder",
+      "rating": 4.0,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP018_1",
+      "employee_id": "EMP018",
+      "reviewer_type": "peer",
+      "rating": 4.7,
+      "comments": "Emma Watson works well within the QA team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP018_2",
+      "employee_id": "EMP018",
+      "reviewer_type": "stakeholder",
+      "rating": 4.6,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP019_1",
+      "employee_id": "EMP019",
+      "reviewer_type": "peer",
+      "rating": 3.6,
+      "comments": "Carlos Gomez works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP019_2",
+      "employee_id": "EMP019",
+      "reviewer_type": "stakeholder",
+      "rating": 3.6,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP020_1",
+      "employee_id": "EMP020",
+      "reviewer_type": "peer",
+      "rating": 4.0,
+      "comments": "Fatimah Al-Mansoor works well within the Product team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP020_2",
+      "employee_id": "EMP020",
+      "reviewer_type": "stakeholder",
+      "rating": 4.2,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP021_1",
+      "employee_id": "EMP021",
+      "reviewer_type": "peer",
+      "rating": 4.4,
+      "comments": "Benjamin Miller works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP021_2",
+      "employee_id": "EMP021",
+      "reviewer_type": "stakeholder",
+      "rating": 4.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP022_1",
+      "employee_id": "EMP022",
+      "reviewer_type": "peer",
+      "rating": 4.8,
+      "comments": "Zoe Anderson works well within the Design team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP022_2",
+      "employee_id": "EMP022",
+      "reviewer_type": "stakeholder",
+      "rating": 3.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP023_1",
+      "employee_id": "EMP023",
+      "reviewer_type": "peer",
+      "rating": 3.7,
+      "comments": "Vikram Singhania works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP023_2",
+      "employee_id": "EMP023",
+      "reviewer_type": "stakeholder",
+      "rating": 4.4,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP024_1",
+      "employee_id": "EMP024",
+      "reviewer_type": "peer",
+      "rating": 4.1,
+      "comments": "Hannah Schmidt works well within the HR team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP024_2",
+      "employee_id": "EMP024",
+      "reviewer_type": "stakeholder",
+      "rating": 3.4,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP025_1",
+      "employee_id": "EMP025",
+      "reviewer_type": "peer",
+      "rating": 4.5,
+      "comments": "Daniel Lee works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP025_2",
+      "employee_id": "EMP025",
+      "reviewer_type": "stakeholder",
+      "rating": 4.0,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP026_1",
+      "employee_id": "EMP026",
+      "reviewer_type": "peer",
+      "rating": 4.9,
+      "comments": "Isabella Rossi works well within the Data team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP026_2",
+      "employee_id": "EMP026",
+      "reviewer_type": "stakeholder",
+      "rating": 4.6,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP027_1",
+      "employee_id": "EMP027",
+      "reviewer_type": "peer",
+      "rating": 3.8,
+      "comments": "James Wilson works well within the Operations team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP027_2",
+      "employee_id": "EMP027",
+      "reviewer_type": "stakeholder",
+      "rating": 3.6,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP028_1",
+      "employee_id": "EMP028",
+      "reviewer_type": "peer",
+      "rating": 4.2,
+      "comments": "Aisha Khan works well within the Engineering team and consistently contributes to sprint goals.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "FB_EMP028_2",
+      "employee_id": "EMP028",
+      "reviewer_type": "stakeholder",
+      "rating": 4.2,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP029_1",
+      "employee_id": "EMP029",
+      "reviewer_type": "peer",
+      "rating": 4.6,
+      "comments": "Ryan Murphy works well within the QA team and consistently contributes to sprint goals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "FB_EMP029_2",
+      "employee_id": "EMP029",
+      "reviewer_type": "stakeholder",
+      "rating": 4.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP030_1",
+      "employee_id": "EMP030",
+      "reviewer_type": "peer",
+      "rating": 3.5,
+      "comments": "Stephanie Clark works well within the Marketing team and consistently contributes to sprint goals.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "FB_EMP030_2",
+      "employee_id": "EMP030",
+      "reviewer_type": "stakeholder",
+      "rating": 3.8,
+      "comments": "Solid functional collaboration. Clear communication during cross-team dependencies.",
+      "sentiment": "positive"
+    }
+  ],
+  "employee_skills": [
+    {
+      "id": "ES_EMP001_1",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 5,
+      "verification_proof": "Author of core async event bus; 5 years production Python."
+    },
+    {
+      "id": "ES_EMP001_2",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 5,
+      "verification_proof": "Authored 4 approved company-wide Architecture Decision Records."
+    },
+    {
+      "id": "ES_EMP001_3",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_LEADERSHIP",
+      "proficiency_level": 4,
+      "verification_proof": "Led engineering scrum squad of 6; coordinated technical release plans."
+    },
+    {
+      "id": "ES_EMP001_4",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 5,
+      "verification_proof": "Keynote speaker at internal Tech Summit; published engineering tech blog."
+    },
+    {
+      "id": "ES_EMP001_5",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 4,
+      "verification_proof": "Tracked multi-sprint backlog and milestone dependency risks."
+    },
+    {
+      "id": "ES_EMP001_6",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_K8S",
+      "proficiency_level": 4,
+      "verification_proof": "Configured Helm charts and canary deployments in production."
+    },
+    {
+      "id": "ES_EMP001_7",
+      "employee_id": "EMP001",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 5,
+      "verification_proof": "Maintained 94% unit & integration test coverage on payment services."
+    },
+    {
+      "id": "ES_EMP002_1",
+      "employee_id": "EMP002",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Authored automated ingestion DAGs and unit-tested data cleaning scripts."
+    },
+    {
+      "id": "ES_EMP002_2",
+      "employee_id": "EMP002",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 4,
+      "verification_proof": "Optimized multi-terabyte query execution plans; certified Snowflake specialist."
+    },
+    {
+      "id": "ES_EMP002_3",
+      "employee_id": "EMP002",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Constructed operational metrics dashboards and trend reporting models."
+    },
+    {
+      "id": "ES_EMP002_4",
+      "employee_id": "EMP002",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Active participant in daily standups and engineering knowledge transfers."
+    },
+    {
+      "id": "ES_EMP002_5",
+      "employee_id": "EMP002",
+      "skill_id": "SKILL_DIST_SYS",
+      "proficiency_level": 2,
+      "verification_proof": "Basic exposure to Kafka consumer groups; has not designed partitioned stream topologies."
+    },
+    {
+      "id": "ES_EMP002_6",
+      "employee_id": "EMP002",
+      "skill_id": "SKILL_K8S",
+      "proficiency_level": 1,
+      "verification_proof": "Limited to viewing deployment logs via kubectl; lacks container pod manifest experience."
+    },
+    {
+      "id": "ES_EMP003_1",
+      "employee_id": "EMP003",
+      "skill_id": "SKILL_UX",
+      "proficiency_level": 5,
+      "verification_proof": "Designed enterprise design system adopted org-wide; Nielsen Norman UX Master Certified."
+    },
+    {
+      "id": "ES_EMP003_2",
+      "employee_id": "EMP003",
+      "skill_id": "SKILL_LEADERSHIP",
+      "proficiency_level": 4,
+      "verification_proof": "Mentors 3 product designers; established weekly corporate design critique cadence."
+    },
+    {
+      "id": "ES_EMP003_3",
+      "employee_id": "EMP003",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 5,
+      "verification_proof": "Regular presenter to executive leadership; leads customer interview readout sessions."
+    },
+    {
+      "id": "ES_EMP003_4",
+      "employee_id": "EMP003",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 4,
+      "verification_proof": "Maintains design roadmap across 4 product suites with zero backlog blockers."
+    },
+    {
+      "id": "ES_EMP003_5",
+      "employee_id": "EMP003",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 5,
+      "verification_proof": "Praised by engineering teams for pixel-perfect specs and interactive code prototypes."
+    },
+    {
+      "id": "ES_EMP004_1",
+      "employee_id": "EMP004",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP004_2",
+      "employee_id": "EMP004",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP004_3",
+      "employee_id": "EMP004",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP004_4",
+      "employee_id": "EMP004",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP004_5",
+      "employee_id": "EMP004",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP004_6",
+      "employee_id": "EMP004",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP005_1",
+      "employee_id": "EMP005",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP005_2",
+      "employee_id": "EMP005",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP005_3",
+      "employee_id": "EMP005",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP005_4",
+      "employee_id": "EMP005",
+      "skill_id": "SKILL_DIST_SYS",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP005_5",
+      "employee_id": "EMP005",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP005_6",
+      "employee_id": "EMP005",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP006_1",
+      "employee_id": "EMP006",
+      "skill_id": "SKILL_UX",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP006_2",
+      "employee_id": "EMP006",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP006_3",
+      "employee_id": "EMP006",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP006_4",
+      "employee_id": "EMP006",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP006_5",
+      "employee_id": "EMP006",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP007_1",
+      "employee_id": "EMP007",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP007_2",
+      "employee_id": "EMP007",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP007_3",
+      "employee_id": "EMP007",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP007_4",
+      "employee_id": "EMP007",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP007_5",
+      "employee_id": "EMP007",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP007_6",
+      "employee_id": "EMP007",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP008_1",
+      "employee_id": "EMP008",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP008_2",
+      "employee_id": "EMP008",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP008_3",
+      "employee_id": "EMP008",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP008_4",
+      "employee_id": "EMP008",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP008_5",
+      "employee_id": "EMP008",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP008_6",
+      "employee_id": "EMP008",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP009_1",
+      "employee_id": "EMP009",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP009_2",
+      "employee_id": "EMP009",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP009_3",
+      "employee_id": "EMP009",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP009_4",
+      "employee_id": "EMP009",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP009_5",
+      "employee_id": "EMP009",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP009_6",
+      "employee_id": "EMP009",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP010_1",
+      "employee_id": "EMP010",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP010_2",
+      "employee_id": "EMP010",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP010_3",
+      "employee_id": "EMP010",
+      "skill_id": "SKILL_LEADERSHIP",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP010_4",
+      "employee_id": "EMP010",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP010_5",
+      "employee_id": "EMP010",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP011_1",
+      "employee_id": "EMP011",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP011_2",
+      "employee_id": "EMP011",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP011_3",
+      "employee_id": "EMP011",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP011_4",
+      "employee_id": "EMP011",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP011_5",
+      "employee_id": "EMP011",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP012_1",
+      "employee_id": "EMP012",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP012_2",
+      "employee_id": "EMP012",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP012_3",
+      "employee_id": "EMP012",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP012_4",
+      "employee_id": "EMP012",
+      "skill_id": "SKILL_DIST_SYS",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP012_5",
+      "employee_id": "EMP012",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP012_6",
+      "employee_id": "EMP012",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP013_1",
+      "employee_id": "EMP013",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP013_2",
+      "employee_id": "EMP013",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP013_3",
+      "employee_id": "EMP013",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP013_4",
+      "employee_id": "EMP013",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP013_5",
+      "employee_id": "EMP013",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP013_6",
+      "employee_id": "EMP013",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP014_1",
+      "employee_id": "EMP014",
+      "skill_id": "SKILL_UX",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP014_2",
+      "employee_id": "EMP014",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP014_3",
+      "employee_id": "EMP014",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP014_4",
+      "employee_id": "EMP014",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP014_5",
+      "employee_id": "EMP014",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP015_1",
+      "employee_id": "EMP015",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP015_2",
+      "employee_id": "EMP015",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP015_3",
+      "employee_id": "EMP015",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP015_4",
+      "employee_id": "EMP015",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP015_5",
+      "employee_id": "EMP015",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP016_1",
+      "employee_id": "EMP016",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP016_2",
+      "employee_id": "EMP016",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP016_3",
+      "employee_id": "EMP016",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP016_4",
+      "employee_id": "EMP016",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP016_5",
+      "employee_id": "EMP016",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP016_6",
+      "employee_id": "EMP016",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP017_1",
+      "employee_id": "EMP017",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP017_2",
+      "employee_id": "EMP017",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP017_3",
+      "employee_id": "EMP017",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP017_4",
+      "employee_id": "EMP017",
+      "skill_id": "SKILL_DIST_SYS",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP017_5",
+      "employee_id": "EMP017",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP017_6",
+      "employee_id": "EMP017",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP018_1",
+      "employee_id": "EMP018",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP018_2",
+      "employee_id": "EMP018",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP018_3",
+      "employee_id": "EMP018",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP018_4",
+      "employee_id": "EMP018",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP018_5",
+      "employee_id": "EMP018",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP019_1",
+      "employee_id": "EMP019",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP019_2",
+      "employee_id": "EMP019",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP019_3",
+      "employee_id": "EMP019",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP019_4",
+      "employee_id": "EMP019",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP019_5",
+      "employee_id": "EMP019",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP019_6",
+      "employee_id": "EMP019",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP020_1",
+      "employee_id": "EMP020",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP020_2",
+      "employee_id": "EMP020",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP020_3",
+      "employee_id": "EMP020",
+      "skill_id": "SKILL_LEADERSHIP",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP020_4",
+      "employee_id": "EMP020",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP020_5",
+      "employee_id": "EMP020",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Product deliverables."
+    },
+    {
+      "id": "ES_EMP021_1",
+      "employee_id": "EMP021",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP021_2",
+      "employee_id": "EMP021",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP021_3",
+      "employee_id": "EMP021",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP021_4",
+      "employee_id": "EMP021",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP021_5",
+      "employee_id": "EMP021",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP021_6",
+      "employee_id": "EMP021",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP022_1",
+      "employee_id": "EMP022",
+      "skill_id": "SKILL_UX",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP022_2",
+      "employee_id": "EMP022",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP022_3",
+      "employee_id": "EMP022",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP022_4",
+      "employee_id": "EMP022",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP022_5",
+      "employee_id": "EMP022",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Design deliverables."
+    },
+    {
+      "id": "ES_EMP023_1",
+      "employee_id": "EMP023",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP023_2",
+      "employee_id": "EMP023",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP023_3",
+      "employee_id": "EMP023",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP023_4",
+      "employee_id": "EMP023",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP023_5",
+      "employee_id": "EMP023",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP023_6",
+      "employee_id": "EMP023",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP024_1",
+      "employee_id": "EMP024",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly HR deliverables."
+    },
+    {
+      "id": "ES_EMP024_2",
+      "employee_id": "EMP024",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly HR deliverables."
+    },
+    {
+      "id": "ES_EMP024_3",
+      "employee_id": "EMP024",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly HR deliverables."
+    },
+    {
+      "id": "ES_EMP024_4",
+      "employee_id": "EMP024",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly HR deliverables."
+    },
+    {
+      "id": "ES_EMP024_5",
+      "employee_id": "EMP024",
+      "skill_id": "SKILL_LEADERSHIP",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly HR deliverables."
+    },
+    {
+      "id": "ES_EMP025_1",
+      "employee_id": "EMP025",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP025_2",
+      "employee_id": "EMP025",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP025_3",
+      "employee_id": "EMP025",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP025_4",
+      "employee_id": "EMP025",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP025_5",
+      "employee_id": "EMP025",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP025_6",
+      "employee_id": "EMP025",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP026_1",
+      "employee_id": "EMP026",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP026_2",
+      "employee_id": "EMP026",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP026_3",
+      "employee_id": "EMP026",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP026_4",
+      "employee_id": "EMP026",
+      "skill_id": "SKILL_DIST_SYS",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP026_5",
+      "employee_id": "EMP026",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP026_6",
+      "employee_id": "EMP026",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Data deliverables."
+    },
+    {
+      "id": "ES_EMP027_1",
+      "employee_id": "EMP027",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP027_2",
+      "employee_id": "EMP027",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP027_3",
+      "employee_id": "EMP027",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP027_4",
+      "employee_id": "EMP027",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP027_5",
+      "employee_id": "EMP027",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Operations deliverables."
+    },
+    {
+      "id": "ES_EMP028_1",
+      "employee_id": "EMP028",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP028_2",
+      "employee_id": "EMP028",
+      "skill_id": "SKILL_SYS_DESIGN",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP028_3",
+      "employee_id": "EMP028",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP028_4",
+      "employee_id": "EMP028",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP028_5",
+      "employee_id": "EMP028",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP028_6",
+      "employee_id": "EMP028",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Engineering deliverables."
+    },
+    {
+      "id": "ES_EMP029_1",
+      "employee_id": "EMP029",
+      "skill_id": "SKILL_TESTING",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP029_2",
+      "employee_id": "EMP029",
+      "skill_id": "SKILL_PY",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP029_3",
+      "employee_id": "EMP029",
+      "skill_id": "SKILL_SQL",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP029_4",
+      "employee_id": "EMP029",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP029_5",
+      "employee_id": "EMP029",
+      "skill_id": "SKILL_PROB_SOLV",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly QA deliverables."
+    },
+    {
+      "id": "ES_EMP030_1",
+      "employee_id": "EMP030",
+      "skill_id": "SKILL_DATA_ANALYSIS",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Marketing deliverables."
+    },
+    {
+      "id": "ES_EMP030_2",
+      "employee_id": "EMP030",
+      "skill_id": "SKILL_COMM",
+      "proficiency_level": 4,
+      "verification_proof": "Demonstrated proficiency on quarterly Marketing deliverables."
+    },
+    {
+      "id": "ES_EMP030_3",
+      "employee_id": "EMP030",
+      "skill_id": "SKILL_COLLAB",
+      "proficiency_level": 2,
+      "verification_proof": "Demonstrated proficiency on quarterly Marketing deliverables."
+    },
+    {
+      "id": "ES_EMP030_4",
+      "employee_id": "EMP030",
+      "skill_id": "SKILL_PROJ_MGT",
+      "proficiency_level": 3,
+      "verification_proof": "Demonstrated proficiency on quarterly Marketing deliverables."
+    }
+  ],
+  "training": [
+    {
+      "id": "TRN_EMP001_1",
+      "employee_id": "EMP001",
+      "course_name": "Advanced Distributed Systems & High-Scale Architecture",
+      "provider": "TechCraft Institute",
+      "completion_status": "completed",
+      "completion_date": "2026-02-14",
+      "skill_area": "Architecture"
+    },
+    {
+      "id": "TRN_EMP001_2",
+      "employee_id": "EMP001",
+      "course_name": "Engineering Leadership & People Development",
+      "provider": "Leadership Academy",
+      "completion_status": "completed",
+      "completion_date": "2026-04-20",
+      "skill_area": "Leadership"
+    },
+    {
+      "id": "TRN_EMP002_1",
+      "employee_id": "EMP002",
+      "course_name": "Apache Spark & Streaming Data Architecture",
+      "provider": "Cloud Data Guild",
+      "completion_status": "completed",
+      "completion_date": "2026-01-25",
+      "skill_area": "Technical"
+    },
+    {
+      "id": "TRN_EMP002_2",
+      "employee_id": "EMP002",
+      "course_name": "Kubernetes for Data Infrastructure",
+      "provider": "DevOps Academy",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Cloud & DevOps"
+    },
+    {
+      "id": "TRN_EMP003_1",
+      "employee_id": "EMP003",
+      "course_name": "Design Systems at Scale & Multi-Brand Governance",
+      "provider": "UX Leadership Institute",
+      "completion_status": "completed",
+      "completion_date": "2026-03-12",
+      "skill_area": "UX Design"
+    },
+    {
+      "id": "TRN_EMP003_2",
+      "employee_id": "EMP003",
+      "course_name": "Executive Product Strategy & Design Metrics",
+      "provider": "Product Faculty",
+      "completion_status": "completed",
+      "completion_date": "2026-06-05",
+      "skill_area": "Leadership"
+    },
+    {
+      "id": "TRN_EMP004_1",
+      "employee_id": "EMP004",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP005_1",
+      "employee_id": "EMP005",
+      "course_name": "Professional Competency in Data Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP006_1",
+      "employee_id": "EMP006",
+      "course_name": "Professional Competency in Design Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP007_1",
+      "employee_id": "EMP007",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP008_1",
+      "employee_id": "EMP008",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP009_1",
+      "employee_id": "EMP009",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP010_1",
+      "employee_id": "EMP010",
+      "course_name": "Professional Competency in Product Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP011_1",
+      "employee_id": "EMP011",
+      "course_name": "Professional Competency in QA Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP012_1",
+      "employee_id": "EMP012",
+      "course_name": "Professional Competency in Data Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP013_1",
+      "employee_id": "EMP013",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP014_1",
+      "employee_id": "EMP014",
+      "course_name": "Professional Competency in Design Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP015_1",
+      "employee_id": "EMP015",
+      "course_name": "Professional Competency in Operations Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP016_1",
+      "employee_id": "EMP016",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP017_1",
+      "employee_id": "EMP017",
+      "course_name": "Professional Competency in Data Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP018_1",
+      "employee_id": "EMP018",
+      "course_name": "Professional Competency in QA Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP019_1",
+      "employee_id": "EMP019",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP020_1",
+      "employee_id": "EMP020",
+      "course_name": "Professional Competency in Product Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP021_1",
+      "employee_id": "EMP021",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP022_1",
+      "employee_id": "EMP022",
+      "course_name": "Professional Competency in Design Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP023_1",
+      "employee_id": "EMP023",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP024_1",
+      "employee_id": "EMP024",
+      "course_name": "Professional Competency in HR Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP025_1",
+      "employee_id": "EMP025",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP026_1",
+      "employee_id": "EMP026",
+      "course_name": "Professional Competency in Data Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP027_1",
+      "employee_id": "EMP027",
+      "course_name": "Professional Competency in Operations Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP028_1",
+      "employee_id": "EMP028",
+      "course_name": "Professional Competency in Engineering Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "in_progress",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP029_1",
+      "employee_id": "EMP029",
+      "course_name": "Professional Competency in QA Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "planned",
+      "completion_date": null,
+      "skill_area": "Professional Development"
+    },
+    {
+      "id": "TRN_EMP030_1",
+      "employee_id": "EMP030",
+      "course_name": "Professional Competency in Marketing Practices",
+      "provider": "Corporate Learning Portal",
+      "completion_status": "completed",
+      "completion_date": "2026-03-15",
+      "skill_area": "Professional Development"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "ATT_EMP001",
+      "employee_id": "EMP001",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 124,
+      "attendance_pct": 99.2,
+      "reliability_notes": "Flawless reliability. 100% sprint attendance and zero missed critical on-call shifts."
+    },
+    {
+      "id": "ATT_EMP002",
+      "employee_id": "EMP002",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 123,
+      "attendance_pct": 98.4,
+      "reliability_notes": "Dependable attendance; actively covers scheduled data on-call rotations."
+    },
+    {
+      "id": "ATT_EMP003",
+      "employee_id": "EMP003",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 124,
+      "attendance_pct": 99.0,
+      "reliability_notes": "Exemplary reliability and punctual stakeholder meeting leadership."
+    },
+    {
+      "id": "ATT_EMP004",
+      "employee_id": "EMP004",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 110,
+      "attendance_pct": 88.0,
+      "reliability_notes": "Attendance record within company norms (88.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP005",
+      "employee_id": "EMP005",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 118,
+      "attendance_pct": 95.0,
+      "reliability_notes": "Attendance record within company norms (95.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP006",
+      "employee_id": "EMP006",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 102,
+      "attendance_pct": 82.0,
+      "reliability_notes": "Attendance record within company norms (82.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP007",
+      "employee_id": "EMP007",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 111,
+      "attendance_pct": 89.0,
+      "reliability_notes": "Attendance record within company norms (89.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP008",
+      "employee_id": "EMP008",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 120,
+      "attendance_pct": 96.0,
+      "reliability_notes": "Attendance record within company norms (96.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP009",
+      "employee_id": "EMP009",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 103,
+      "attendance_pct": 83.0,
+      "reliability_notes": "Attendance record within company norms (83.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP010",
+      "employee_id": "EMP010",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 112,
+      "attendance_pct": 90.0,
+      "reliability_notes": "Attendance record within company norms (90.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP011",
+      "employee_id": "EMP011",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 121,
+      "attendance_pct": 97.0,
+      "reliability_notes": "Attendance record within company norms (97.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP012",
+      "employee_id": "EMP012",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 105,
+      "attendance_pct": 84.0,
+      "reliability_notes": "Attendance record within company norms (84.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP013",
+      "employee_id": "EMP013",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 95,
+      "attendance_pct": 76.5,
+      "reliability_notes": "Attendance record within company norms (76.5% attendance)."
+    },
+    {
+      "id": "ATT_EMP014",
+      "employee_id": "EMP014",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 122,
+      "attendance_pct": 98.0,
+      "reliability_notes": "Attendance record within company norms (98.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP015",
+      "employee_id": "EMP015",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 106,
+      "attendance_pct": 85.0,
+      "reliability_notes": "Attendance record within company norms (85.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP016",
+      "employee_id": "EMP016",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 115,
+      "attendance_pct": 92.0,
+      "reliability_notes": "Attendance record within company norms (92.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP017",
+      "employee_id": "EMP017",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 123,
+      "attendance_pct": 99.0,
+      "reliability_notes": "Attendance record within company norms (99.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP018",
+      "employee_id": "EMP018",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 107,
+      "attendance_pct": 86.0,
+      "reliability_notes": "Attendance record within company norms (86.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP019",
+      "employee_id": "EMP019",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 116,
+      "attendance_pct": 93.0,
+      "reliability_notes": "Attendance record within company norms (93.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP020",
+      "employee_id": "EMP020",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 100,
+      "attendance_pct": 80.0,
+      "reliability_notes": "Attendance record within company norms (80.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP021",
+      "employee_id": "EMP021",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 108,
+      "attendance_pct": 87.0,
+      "reliability_notes": "Attendance record within company norms (87.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP022",
+      "employee_id": "EMP022",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 117,
+      "attendance_pct": 94.0,
+      "reliability_notes": "Attendance record within company norms (94.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP023",
+      "employee_id": "EMP023",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 101,
+      "attendance_pct": 81.0,
+      "reliability_notes": "Attendance record within company norms (81.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP024",
+      "employee_id": "EMP024",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 110,
+      "attendance_pct": 88.0,
+      "reliability_notes": "Attendance record within company norms (88.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP025",
+      "employee_id": "EMP025",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 118,
+      "attendance_pct": 95.0,
+      "reliability_notes": "Attendance record within company norms (95.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP026",
+      "employee_id": "EMP026",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 102,
+      "attendance_pct": 82.0,
+      "reliability_notes": "Attendance record within company norms (82.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP027",
+      "employee_id": "EMP027",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 101,
+      "attendance_pct": 81.2,
+      "reliability_notes": "Attendance record within company norms (81.2% attendance)."
+    },
+    {
+      "id": "ATT_EMP028",
+      "employee_id": "EMP028",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 120,
+      "attendance_pct": 96.0,
+      "reliability_notes": "Attendance record within company norms (96.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP029",
+      "employee_id": "EMP029",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 103,
+      "attendance_pct": 83.0,
+      "reliability_notes": "Attendance record within company norms (83.0% attendance)."
+    },
+    {
+      "id": "ATT_EMP030",
+      "employee_id": "EMP030",
+      "period": "2026-H1",
+      "working_days": 125,
+      "days_present": 112,
+      "attendance_pct": 90.0,
+      "reliability_notes": "Attendance record within company norms (90.0% attendance)."
+    }
+  ],
+  "business_impact": [
+    {
+      "id": "BI_EMP001_1",
+      "employee_id": "EMP001",
+      "impact_type": "cost_savings",
+      "metric_name": "Annualized Infrastructure Savings",
+      "value": "420000",
+      "metric_unit": "USD",
+      "description": "Cloud infrastructure rightsizing and connection pool optimization.",
+      "evidence": "AWS invoice comparison confirmed $35,000 monthly cost reduction."
+    },
+    {
+      "id": "BI_EMP001_2",
+      "employee_id": "EMP001",
+      "impact_type": "productivity",
+      "metric_name": "Checkout Response Latency",
+      "value": "45",
+      "metric_unit": "percent",
+      "description": "p99 API latency reduction during peak customer volume.",
+      "evidence": "Datadog telemetry confirmed p99 dropped from 480ms to 264ms."
+    },
+    {
+      "id": "BI_EMP002_1",
+      "employee_id": "EMP002",
+      "impact_type": "productivity",
+      "metric_name": "Analyst Hours Saved",
+      "value": "15",
+      "metric_unit": "hours_per_week",
+      "description": "Automated 8 manual financial data extracts into self-updating data marts.",
+      "evidence": "Finance BI team verified weekly reporting prep time dropped from 20h to 5h."
+    },
+    {
+      "id": "BI_EMP003_1",
+      "employee_id": "EMP003",
+      "impact_type": "customer_impact",
+      "metric_name": "Onboarding Drop-off Rate",
+      "value": "26",
+      "metric_unit": "percent_drop",
+      "description": "Redesigned onboarding flows and contextual guidance tooltips.",
+      "evidence": "Mixpanel funnel analytics verified onboarding drop-off decreased from 34% to 8%."
+    },
+    {
+      "id": "BI_EMP003_2",
+      "employee_id": "EMP003",
+      "impact_type": "revenue",
+      "metric_name": "Trial-to-Paid Subscription Conversion",
+      "value": "28",
+      "metric_unit": "percent_lift",
+      "description": "Streamlined checkout and workspace invitation flows leading to net new ARR.",
+      "evidence": "Stripe billing analytics confirmed 28% increase in trial conversion."
+    },
+    {
+      "id": "BI_EMP004_1",
+      "employee_id": "EMP004",
+      "impact_type": "productivity",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "14",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP005_1",
+      "employee_id": "EMP005",
+      "impact_type": "quality",
+      "metric_name": "Data Efficiency Enhancement",
+      "value": "15",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Data.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP006_1",
+      "employee_id": "EMP006",
+      "impact_type": "cost_savings",
+      "metric_name": "Design Efficiency Enhancement",
+      "value": "16",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Design.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP007_1",
+      "employee_id": "EMP007",
+      "impact_type": "delivery_improvement",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "17",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP008_1",
+      "employee_id": "EMP008",
+      "impact_type": "productivity",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "18",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP009_1",
+      "employee_id": "EMP009",
+      "impact_type": "quality",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "19",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP010_1",
+      "employee_id": "EMP010",
+      "impact_type": "cost_savings",
+      "metric_name": "Product Efficiency Enhancement",
+      "value": "20",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Product.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP011_1",
+      "employee_id": "EMP011",
+      "impact_type": "delivery_improvement",
+      "metric_name": "QA Efficiency Enhancement",
+      "value": "21",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in QA.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP012_1",
+      "employee_id": "EMP012",
+      "impact_type": "productivity",
+      "metric_name": "Data Efficiency Enhancement",
+      "value": "22",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Data.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP013_1",
+      "employee_id": "EMP013",
+      "impact_type": "quality",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "23",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP014_1",
+      "employee_id": "EMP014",
+      "impact_type": "cost_savings",
+      "metric_name": "Design Efficiency Enhancement",
+      "value": "24",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Design.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP015_1",
+      "employee_id": "EMP015",
+      "impact_type": "delivery_improvement",
+      "metric_name": "Operations Efficiency Enhancement",
+      "value": "25",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Operations.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP016_1",
+      "employee_id": "EMP016",
+      "impact_type": "productivity",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "26",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP017_1",
+      "employee_id": "EMP017",
+      "impact_type": "quality",
+      "metric_name": "Data Efficiency Enhancement",
+      "value": "27",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Data.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP018_1",
+      "employee_id": "EMP018",
+      "impact_type": "cost_savings",
+      "metric_name": "QA Efficiency Enhancement",
+      "value": "28",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in QA.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP019_1",
+      "employee_id": "EMP019",
+      "impact_type": "delivery_improvement",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "29",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP020_1",
+      "employee_id": "EMP020",
+      "impact_type": "productivity",
+      "metric_name": "Product Efficiency Enhancement",
+      "value": "30",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Product.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP021_1",
+      "employee_id": "EMP021",
+      "impact_type": "quality",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "31",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP022_1",
+      "employee_id": "EMP022",
+      "impact_type": "cost_savings",
+      "metric_name": "Design Efficiency Enhancement",
+      "value": "32",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Design.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP023_1",
+      "employee_id": "EMP023",
+      "impact_type": "delivery_improvement",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "33",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP024_1",
+      "employee_id": "EMP024",
+      "impact_type": "productivity",
+      "metric_name": "HR Efficiency Enhancement",
+      "value": "34",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in HR.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP025_1",
+      "employee_id": "EMP025",
+      "impact_type": "quality",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "10",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP026_1",
+      "employee_id": "EMP026",
+      "impact_type": "cost_savings",
+      "metric_name": "Data Efficiency Enhancement",
+      "value": "11",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Data.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP027_1",
+      "employee_id": "EMP027",
+      "impact_type": "delivery_improvement",
+      "metric_name": "Operations Efficiency Enhancement",
+      "value": "12",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Operations.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP028_1",
+      "employee_id": "EMP028",
+      "impact_type": "productivity",
+      "metric_name": "Engineering Efficiency Enhancement",
+      "value": "13",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Engineering.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP029_1",
+      "employee_id": "EMP029",
+      "impact_type": "quality",
+      "metric_name": "QA Efficiency Enhancement",
+      "value": "14",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in QA.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    },
+    {
+      "id": "BI_EMP030_1",
+      "employee_id": "EMP030",
+      "impact_type": "cost_savings",
+      "metric_name": "Marketing Efficiency Enhancement",
+      "value": "15",
+      "metric_unit": "percent",
+      "description": "Contributed to streamlining cross-functional handoffs in Marketing.",
+      "evidence": "Internal quarterly team retrospectives confirmed measurable efficiency gains."
+    }
+  ],
+  "manager_evaluations": [
+    {
+      "id": "ME_EMP001_1",
+      "employee_id": "EMP001",
+      "manager_name": "David Vance",
+      "rating": 4.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Elena consistently outperforms expectations. She operates as our de facto Tech Lead, delivers pristine architecture, and mentors others. Strong promotion candidate.",
+      "evaluation_date": "2026-06-15"
+    },
+    {
+      "id": "ME_EMP002_1",
+      "employee_id": "EMP002",
+      "manager_name": "Sarah Jenkins",
+      "rating": 4.1,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Marcus is an outstanding contributor who has mastered day-to-day batch pipelines. To advance to Senior Data Engineer, he must build hands-on mastery in distributed systems and Kubernetes.",
+      "evaluation_date": "2026-06-18"
+    },
+    {
+      "id": "ME_EMP003_1",
+      "employee_id": "EMP003",
+      "manager_name": "Robert Sterling",
+      "rating": 2.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Priya produces good designs but had minor timeline friction during our last sprint retro. Needs more focus on meeting sprint deadlines.",
+      "evaluation_date": "2026-06-20"
+    },
+    {
+      "id": "ME_EMP004_1",
+      "employee_id": "EMP004",
+      "manager_name": "Executive Committee",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "David Vance performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP005_1",
+      "employee_id": "EMP005",
+      "manager_name": "David Vance",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Sarah Jenkins performs consistently in the Data department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP006_1",
+      "employee_id": "EMP006",
+      "manager_name": "David Vance",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Robert Sterling performs consistently in the Design department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP007_1",
+      "employee_id": "EMP007",
+      "manager_name": "David Vance",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Alexander Wright performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP008_1",
+      "employee_id": "EMP008",
+      "manager_name": "Elena Rostova",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Sophia Kim performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP009_1",
+      "employee_id": "EMP009",
+      "manager_name": "David Vance",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Rahul Verma performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP010_1",
+      "employee_id": "EMP010",
+      "manager_name": "David Vance",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Chloe Bennett performs consistently in the Product department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP011_1",
+      "employee_id": "EMP011",
+      "manager_name": "David Vance",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Liam O'Connor performs consistently in the QA department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP012_1",
+      "employee_id": "EMP012",
+      "manager_name": "Sarah Jenkins",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Maya Patel performs consistently in the Data department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP013_1",
+      "employee_id": "EMP013",
+      "manager_name": "Elena Rostova",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Lucas Silva performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP014_1",
+      "employee_id": "EMP014",
+      "manager_name": "Priya Sharma",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Olivia Martinez performs consistently in the Design department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP015_1",
+      "employee_id": "EMP015",
+      "manager_name": "Chloe Bennett",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Ethan Davis performs consistently in the Operations department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP016_1",
+      "employee_id": "EMP016",
+      "manager_name": "David Vance",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Ananya Iyer performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP017_1",
+      "employee_id": "EMP017",
+      "manager_name": "Sarah Jenkins",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Noah Taylor performs consistently in the Data department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP018_1",
+      "employee_id": "EMP018",
+      "manager_name": "David Vance",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Emma Watson performs consistently in the QA department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP019_1",
+      "employee_id": "EMP019",
+      "manager_name": "David Vance",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Carlos Gomez performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP020_1",
+      "employee_id": "EMP020",
+      "manager_name": "David Vance",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Fatimah Al-Mansoor performs consistently in the Product department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP021_1",
+      "employee_id": "EMP021",
+      "manager_name": "Alexander Wright",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Benjamin Miller performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP022_1",
+      "employee_id": "EMP022",
+      "manager_name": "Priya Sharma",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Zoe Anderson performs consistently in the Design department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP023_1",
+      "employee_id": "EMP023",
+      "manager_name": "David Vance",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Vikram Singhania performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP024_1",
+      "employee_id": "EMP024",
+      "manager_name": "David Vance",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Hannah Schmidt performs consistently in the HR department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP025_1",
+      "employee_id": "EMP025",
+      "manager_name": "David Vance",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Daniel Lee performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP026_1",
+      "employee_id": "EMP026",
+      "manager_name": "Sarah Jenkins",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Isabella Rossi performs consistently in the Data department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP027_1",
+      "employee_id": "EMP027",
+      "manager_name": "Chloe Bennett",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "James Wilson performs consistently in the Operations department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP028_1",
+      "employee_id": "EMP028",
+      "manager_name": "Alexander Wright",
+      "rating": 3.8,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Aisha Khan performs consistently in the Engineering department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP029_1",
+      "employee_id": "EMP029",
+      "manager_name": "David Vance",
+      "rating": 4.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Ryan Murphy performs consistently in the QA department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    },
+    {
+      "id": "ME_EMP030_1",
+      "employee_id": "EMP030",
+      "manager_name": "Chloe Bennett",
+      "rating": 3.3,
+      "evaluation_cycle": "2026-H1",
+      "comments": "Stephanie Clark performs consistently in the Marketing department with solid accountability.",
+      "evaluation_date": "2026-06-22"
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "roles": [
+    {
+      "id": "SWE-01",
+      "title": "Software Engineer",
+      "department": "Engineering",
+      "level": "L3",
+      "description": "Individual contributor responsible for implementing well-defined features, writing unit tests, and participating in code reviews."
+    },
+    {
+      "id": "SWE-02",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "level": "L4",
+      "description": "Senior engineer leading component architecture, complex feature delivery, cross-team technical alignment, and mentoring."
+    },
+    {
+      "id": "SWE-TL",
+      "title": "Tech Lead",
+      "department": "Engineering",
+      "level": "L5",
+      "description": "Technical leader guiding squad architecture, system design, technical roadmap, high-scale resilience, and team technical excellence."
+    },
+    {
+      "id": "DE-01",
+      "title": "Data Engineer",
+      "department": "Data Platform",
+      "level": "L3",
+      "description": "Engineer responsible for data pipelines, ETL workflows, data warehousing, and telemetry transformations."
+    },
+    {
+      "id": "DE-02",
+      "title": "Senior Data Engineer",
+      "department": "Data Platform",
+      "level": "L4",
+      "description": "Senior data specialist owning distributed data pipelines, streaming architectures, warehouse governance, and cluster orchestration."
+    },
+    {
+      "id": "UX-01",
+      "title": "UX Lead",
+      "department": "Product Design",
+      "level": "L4",
+      "description": "Lead product designer shaping design systems, user experience standards, customer research, and cross-functional design excellence."
+    },
+    {
+      "id": "UX-DIR",
+      "title": "Director of Product Design",
+      "department": "Product Design",
+      "level": "L5",
+      "description": "Executive design leader overseeing design operations, multi-product design language, customer empathy metrics, and design organization growth."
+    }
+  ],
+  "skills": [
+    {
+      "id": "SKILL-PY",
+      "name": "Python",
+      "category": "Technical",
+      "description": "Core backend development, asynchronous programming, APIs, and data processing in Python."
+    },
+    {
+      "id": "SKILL-SQL",
+      "name": "SQL",
+      "category": "Technical",
+      "description": "Complex relational querying, query optimization, indexing strategies, and schema modeling."
+    },
+    {
+      "id": "SKILL-SYS-DES",
+      "name": "System Design",
+      "category": "Architecture",
+      "description": "High-level distributed systems architecture, microservices decomposition, caching, and resiliency patterns."
+    },
+    {
+      "id": "SKILL-DIST-SYS",
+      "name": "Distributed Systems",
+      "category": "Architecture",
+      "description": "Consensus protocols, event streaming, distributed caching, partition tolerance, and high availability systems."
+    },
+    {
+      "id": "SKILL-K8S",
+      "name": "Kubernetes",
+      "category": "Cloud & DevOps",
+      "description": "Container orchestration, Helm charts, service meshes, cloud-native deployments, and cluster observability."
+    },
+    {
+      "id": "SKILL-LEAD",
+      "name": "Leadership",
+      "category": "Leadership & Soft Skills",
+      "description": "Technical direction, cross-functional advocacy, unblocking team members, and driving engineering initiatives."
+    },
+    {
+      "id": "SKILL-COMM",
+      "name": "Communication",
+      "category": "Leadership & Soft Skills",
+      "description": "Clear technical documentation, RFC authorship, stakeholder management, and cross-team alignment."
+    },
+    {
+      "id": "SKILL-UX",
+      "name": "UX Design",
+      "category": "Product & Design",
+      "description": "User journey mapping, wireframing, interactive prototyping, usability testing, and accessibility standards."
+    },
+    {
+      "id": "SKILL-PROJ-MGT",
+      "name": "Project Management",
+      "category": "Leadership & Soft Skills",
+      "description": "Milestone planning, sprint cadence management, risk mitigation, and on-time delivery tracking."
+    }
+  ],
+  "role_requirements": [
+    {
+      "id": "RR-SWE-TL-01",
+      "role_id": "SWE-TL",
+      "skill_id": "SKILL-SYS-DES",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-SWE-TL-02",
+      "role_id": "SWE-TL",
+      "skill_id": "SKILL-PY",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-SWE-TL-03",
+      "role_id": "SWE-TL",
+      "skill_id": "SKILL-LEAD",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-SWE-TL-04",
+      "role_id": "SWE-TL",
+      "skill_id": "SKILL-COMM",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-SWE-TL-05",
+      "role_id": "SWE-TL",
+      "skill_id": "SKILL-PROJ-MGT",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "RR-SWE-TL-06",
+      "role_id": "SWE-TL",
+      "skill_id": "SKILL-K8S",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "RR-DE-02-01",
+      "role_id": "DE-02",
+      "skill_id": "SKILL-PY",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-DE-02-02",
+      "role_id": "DE-02",
+      "skill_id": "SKILL-SQL",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-DE-02-03",
+      "role_id": "DE-02",
+      "skill_id": "SKILL-DIST-SYS",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-DE-02-04",
+      "role_id": "DE-02",
+      "skill_id": "SKILL-K8S",
+      "required_level": 3,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-DE-02-05",
+      "role_id": "DE-02",
+      "skill_id": "SKILL-COMM",
+      "required_level": 3,
+      "is_mandatory": false
+    },
+    {
+      "id": "RR-UX-DIR-01",
+      "role_id": "UX-DIR",
+      "skill_id": "SKILL-UX",
+      "required_level": 5,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-UX-DIR-02",
+      "role_id": "UX-DIR",
+      "skill_id": "SKILL-LEAD",
+      "required_level": 4,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-UX-DIR-03",
+      "role_id": "UX-DIR",
+      "skill_id": "SKILL-COMM",
+      "required_level": 5,
+      "is_mandatory": true
+    },
+    {
+      "id": "RR-UX-DIR-04",
+      "role_id": "UX-DIR",
+      "skill_id": "SKILL-PROJ-MGT",
+      "required_level": 4,
+      "is_mandatory": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-001",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@zerobugs.corp",
+      "department": "Engineering",
+      "current_role_id": "SWE-02",
+      "current_role": "Senior Software Engineer",
+      "target_role_id": "SWE-TL",
+      "target_role": "Tech Lead",
+      "manager": "David Vance",
+      "hire_date": "2023-03-15",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "bio": "Senior full-stack engineer leading core financial services architecture with high-impact system modernization experience."
+    },
+    {
+      "id": "EMP-002",
+      "name": "Marcus Chen",
+      "email": "marcus.chen@zerobugs.corp",
+      "department": "Data Platform",
+      "current_role_id": "DE-01",
+      "current_role": "Data Engineer",
+      "target_role_id": "DE-02",
+      "target_role": "Senior Data Engineer",
+      "manager": "Sarah Jenkins",
+      "hire_date": "2024-01-10",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "bio": "Data platform engineer dedicated to reliable ETL pipelines, warehouse optimization, and reporting automations."
+    },
+    {
+      "id": "EMP-003",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@zerobugs.corp",
+      "department": "Product Design",
+      "current_role_id": "UX-01",
+      "current_role": "UX Lead",
+      "target_role_id": "UX-DIR",
+      "target_role": "Director of Product Design",
+      "manager": "Robert Sterling",
+      "hire_date": "2022-09-01",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "bio": "Lead UX designer standardizing multi-product design systems, driving research-backed conversion funnels and user empathy."
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL-001",
+      "employee_id": "EMP-001",
+      "title": "Core Payment Microservice Modernization",
+      "category": "Engineering Delivery",
+      "target_value": 100.0,
+      "achieved_value": 98.0,
+      "metric_unit": "%",
+      "progress_percentage": 98.0,
+      "verification_evidence": "Migrated monolithic billing module to decoupled event-driven services 3 weeks ahead of deadline with zero P0 production incidents."
+    },
+    {
+      "id": "GOAL-002",
+      "employee_id": "EMP-001",
+      "title": "Frontend Core Web Vitals Optimization",
+      "category": "Performance Quality",
+      "target_value": 90.0,
+      "achieved_value": 95.0,
+      "metric_unit": "score",
+      "progress_percentage": 105.5,
+      "verification_evidence": "Reduced Largest Contentful Paint (LCP) from 2.8s to 0.85s across primary checkout funnel; verified by Datadog Real User Monitoring."
+    },
+    {
+      "id": "GOAL-003",
+      "employee_id": "EMP-001",
+      "title": "Squad Mentorship & Code Review Standards",
+      "category": "Team Leadership",
+      "target_value": 12.0,
+      "achieved_value": 14.0,
+      "metric_unit": "sessions",
+      "progress_percentage": 116.7,
+      "verification_evidence": "Conducted 14 bi-weekly architecture sessions; directly guided 2 junior engineers to independent mid-level feature ownership."
+    },
+    {
+      "id": "GOAL-004",
+      "employee_id": "EMP-002",
+      "title": "Data Pipeline Reliability & Ingestion SLA",
+      "category": "Platform Stability",
+      "target_value": 95.0,
+      "achieved_value": 94.0,
+      "metric_unit": "%",
+      "progress_percentage": 98.9,
+      "verification_evidence": "Sustained 99.4% daily pipeline SLA across 14 upstream data streams with automated failure alerting."
+    },
+    {
+      "id": "GOAL-005",
+      "employee_id": "EMP-002",
+      "title": "Warehouse Query Optimization",
+      "category": "Performance Efficiency",
+      "target_value": 20.0,
+      "achieved_value": 22.0,
+      "metric_unit": "queries",
+      "progress_percentage": 110.0,
+      "verification_evidence": "Refactored 22 high-cost analytical queries, reducing daily Snowflake warehouse compute hours by 34%."
+    },
+    {
+      "id": "GOAL-006",
+      "employee_id": "EMP-003",
+      "title": "Unified Design System Multi-Platform Adoption",
+      "category": "Design System",
+      "target_value": 80.0,
+      "achieved_value": 92.0,
+      "metric_unit": "%",
+      "progress_percentage": 115.0,
+      "verification_evidence": "18 frontend micro-applications transitioned to shared tokenized design system components with 100% WCAG AA compliance."
+    },
+    {
+      "id": "GOAL-007",
+      "employee_id": "EMP-003",
+      "title": "Enterprise Portal Usability Score (SUS)",
+      "category": "User Experience",
+      "target_value": 85.0,
+      "achieved_value": 94.0,
+      "metric_unit": "score",
+      "progress_percentage": 110.6,
+      "verification_evidence": "System Usability Scale score surveyed across 250 enterprise beta users jumped from 72 to 94 post-redesign."
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ-001",
+      "employee_id": "EMP-001",
+      "project_name": "Global Checkout Engine v2",
+      "role": "Lead Architect / Primary Implementer",
+      "deliverables": "Resilient payment orchestration layer with idempotent transaction management and multi-gateway routing.",
+      "delivered_on_time": true,
+      "quality_score": 4.9,
+      "outcome_evidence": "Production release delivered on scheduled sprint; sustained $420,000 annualized AWS compute and database savings."
+    },
+    {
+      "id": "PRJ-002",
+      "employee_id": "EMP-001",
+      "project_name": "Zero-Downtime Database Migration",
+      "role": "Technical Lead",
+      "deliverables": "Automated blue-green migration pipeline for 14M customer ledger records.",
+      "delivered_on_time": true,
+      "quality_score": 4.8,
+      "outcome_evidence": "Completed data migration across 3 regions with zero downtime and 100% record checksum validation."
+    },
+    {
+      "id": "PRJ-003",
+      "employee_id": "EMP-002",
+      "project_name": "Real-time Telemetry Ingestion Hub",
+      "role": "Data Engineer",
+      "deliverables": "Kafka-to-Warehouse ETL ingestion pipeline processing application telemetry.",
+      "delivered_on_time": true,
+      "quality_score": 4.4,
+      "outcome_evidence": "Ingested 15M daily event payload with sub-minute latency and automatic schema drift quarantine."
+    },
+    {
+      "id": "PRJ-004",
+      "employee_id": "EMP-003",
+      "project_name": "Enterprise Portal Design System Overhaul",
+      "role": "UX Lead / Principal Designer",
+      "deliverables": "Comprehensive Figma component library, motion guidelines, and tokenized design-to-code sync pipeline.",
+      "delivered_on_time": true,
+      "quality_score": 4.9,
+      "outcome_evidence": "Reduced UX handoff revision loops by 60% and accelerated feature UI sprint velocity by 2.4x."
+    }
+  ],
+  "feedback": [
+    {
+      "id": "FB-001",
+      "employee_id": "EMP-001",
+      "reviewer_type": "Peer Senior Engineer",
+      "rating": 4.9,
+      "comments": "Elena is the technical backbone of our squad. Her architectural clarity and patient mentoring raise the entire team's engineering bar.",
+      "sentiment": "Positive"
+    },
+    {
+      "id": "FB-002",
+      "employee_id": "EMP-001",
+      "reviewer_type": "Staff Architect",
+      "rating": 5.0,
+      "comments": "Elena's design docs are the gold standard for our organization. She is already operating at Tech Lead caliber.",
+      "sentiment": "Positive"
+    },
+    {
+      "id": "FB-003",
+      "employee_id": "EMP-001",
+      "reviewer_type": "Product Manager",
+      "rating": 4.8,
+      "comments": "Exceptional communicator. Elena bridges complex distributed trade-offs into clear product value.",
+      "sentiment": "Positive"
+    },
+    {
+      "id": "FB-004",
+      "employee_id": "EMP-002",
+      "reviewer_type": "Peer Data Engineer",
+      "rating": 4.3,
+      "comments": "Marcus is exceptionally reliable with day-to-day batch pipelines and writes immaculate SQL transformations.",
+      "sentiment": "Positive"
+    },
+    {
+      "id": "FB-005",
+      "employee_id": "EMP-002",
+      "reviewer_type": "Senior BI Analyst",
+      "rating": 4.2,
+      "comments": "Great collaborator on data modeling. Marcus needs more exposure to Kubernetes cluster management for complex distributed pipelines.",
+      "sentiment": "Constructive"
+    },
+    {
+      "id": "FB-006",
+      "employee_id": "EMP-003",
+      "reviewer_type": "Senior Frontend Engineer",
+      "rating": 4.9,
+      "comments": "Priya produces the cleanest, most accessible component specs in the company. Working with her is a joy.",
+      "sentiment": "Positive"
+    },
+    {
+      "id": "FB-007",
+      "employee_id": "EMP-003",
+      "reviewer_type": "VP of Product",
+      "rating": 4.8,
+      "comments": "Priya's customer research fundamentally transformed our enterprise portal adoption. She commands deep cross-functional respect.",
+      "sentiment": "Positive"
+    }
+  ],
+  "employee_skills": [
+    {
+      "id": "ES-001",
+      "employee_id": "EMP-001",
+      "skill_id": "SKILL-PY",
+      "skill_name": "Python",
+      "category": "Technical",
+      "proficiency_level": 5,
+      "verification_evidence": "Engineered core asynchronous payment pipeline; author of internal async queue library."
+    },
+    {
+      "id": "ES-002",
+      "employee_id": "EMP-001",
+      "skill_id": "SKILL-SYS-DES",
+      "skill_name": "System Design",
+      "category": "Architecture",
+      "proficiency_level": 5,
+      "verification_evidence": "Authored and defended 4 approved Architecture Decision Records (ADRs) for multi-region active-active clusters."
+    },
+    {
+      "id": "ES-003",
+      "employee_id": "EMP-001",
+      "skill_id": "SKILL-LEAD",
+      "skill_name": "Leadership",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 4,
+      "verification_evidence": "Led engineering scrum squad of 6; coordinated technical release plans across 3 squads."
+    },
+    {
+      "id": "ES-004",
+      "employee_id": "EMP-001",
+      "skill_id": "SKILL-COMM",
+      "skill_name": "Communication",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 5,
+      "verification_evidence": "Keynote speaker at internal Tech Summit; published engineering blog post with 12k views."
+    },
+    {
+      "id": "ES-005",
+      "employee_id": "EMP-001",
+      "skill_id": "SKILL-PROJ-MGT",
+      "skill_name": "Project Management",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 4,
+      "verification_evidence": "Managed sprint backlogs, risk registers, and critical dependencies for 4 successful quarters."
+    },
+    {
+      "id": "ES-006",
+      "employee_id": "EMP-001",
+      "skill_id": "SKILL-K8S",
+      "skill_name": "Kubernetes",
+      "category": "Cloud & DevOps",
+      "proficiency_level": 4,
+      "verification_evidence": "Configured Helm charts, auto-scaling HPA rules, and canary deployments in staging/production."
+    },
+    {
+      "id": "ES-007",
+      "employee_id": "EMP-002",
+      "skill_id": "SKILL-PY",
+      "skill_name": "Python",
+      "category": "Technical",
+      "proficiency_level": 4,
+      "verification_evidence": "Authored automated ingestion DAGs and unit-tested data cleaning pipelines in Python."
+    },
+    {
+      "id": "ES-008",
+      "employee_id": "EMP-002",
+      "skill_id": "SKILL-SQL",
+      "skill_name": "SQL",
+      "category": "Technical",
+      "proficiency_level": 5,
+      "verification_evidence": "Optimized multi-terabyte query execution plans; verified certified Snowflake Specialist."
+    },
+    {
+      "id": "ES-009",
+      "employee_id": "EMP-002",
+      "skill_id": "SKILL-COMM",
+      "skill_name": "Communication",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 4,
+      "verification_evidence": "Delivers crisp sprint demos to BI stakeholders and maintains thorough data dictionary docs."
+    },
+    {
+      "id": "ES-010",
+      "employee_id": "EMP-002",
+      "skill_id": "SKILL-DIST-SYS",
+      "skill_name": "Distributed Systems",
+      "category": "Architecture",
+      "proficiency_level": 2,
+      "verification_evidence": "Basic exposure to Kafka consumer groups; has not yet designed distributed partition sharding."
+    },
+    {
+      "id": "ES-011",
+      "employee_id": "EMP-002",
+      "skill_id": "SKILL-K8S",
+      "skill_name": "Kubernetes",
+      "category": "Cloud & DevOps",
+      "proficiency_level": 1,
+      "verification_evidence": "Limited to viewing deployment logs via Kubectl; no hands-on pod configuration experience."
+    },
+    {
+      "id": "ES-012",
+      "employee_id": "EMP-003",
+      "skill_id": "SKILL-UX",
+      "skill_name": "UX Design",
+      "category": "Product & Design",
+      "proficiency_level": 5,
+      "verification_evidence": "Designed end-to-end design system adopted enterprise-wide; Nielsen Norman UX Certified."
+    },
+    {
+      "id": "ES-013",
+      "employee_id": "EMP-003",
+      "skill_id": "SKILL-LEAD",
+      "skill_name": "Leadership",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 4,
+      "verification_evidence": "Mentors 3 product designers; established corporate design critique and review standards."
+    },
+    {
+      "id": "ES-014",
+      "employee_id": "EMP-003",
+      "skill_id": "SKILL-COMM",
+      "skill_name": "Communication",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 5,
+      "verification_evidence": "Regular presenter to executive leadership; leads customer interview readout sessions."
+    },
+    {
+      "id": "ES-015",
+      "employee_id": "EMP-003",
+      "skill_id": "SKILL-PROJ-MGT",
+      "skill_name": "Project Management",
+      "category": "Leadership & Soft Skills",
+      "proficiency_level": 4,
+      "verification_evidence": "Maintains design roadmap across 4 product suites; tracks zero design debt backlogs."
+    }
+  ],
+  "training": [
+    {
+      "id": "TRN-001",
+      "employee_id": "EMP-001",
+      "course": "Advanced Distributed Systems & High-Scale Architecture",
+      "hours": 40,
+      "score": 98.0,
+      "completion_date": "2026-02-14"
+    },
+    {
+      "id": "TRN-002",
+      "employee_id": "EMP-001",
+      "course": "Engineering Leadership & People Development",
+      "hours": 24,
+      "score": 96.0,
+      "completion_date": "2026-04-20"
+    },
+    {
+      "id": "TRN-003",
+      "employee_id": "EMP-002",
+      "course": "Apache Spark & Streaming Data Architecture",
+      "hours": 32,
+      "score": 91.0,
+      "completion_date": "2026-01-25"
+    },
+    {
+      "id": "TRN-004",
+      "employee_id": "EMP-002",
+      "course": "Kubernetes Fundamentals for Data Engineers",
+      "hours": 16,
+      "score": 78.0,
+      "completion_date": "2026-05-10"
+    },
+    {
+      "id": "TRN-005",
+      "employee_id": "EMP-003",
+      "course": "Design Systems at Scale & Multi-Brand Governance",
+      "hours": 36,
+      "score": 99.0,
+      "completion_date": "2026-03-12"
+    },
+    {
+      "id": "TRN-006",
+      "employee_id": "EMP-003",
+      "course": "Executive Product Strategy & Design Metrics",
+      "hours": 20,
+      "score": 95.0,
+      "completion_date": "2026-06-05"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "ATT-001",
+      "employee_id": "EMP-001",
+      "attendance_percentage": 99.2,
+      "on_time_rate": 99.5,
+      "reliability_indicators": {
+        "sprint_presence_pct": 100.0,
+        "meeting_engagement_score": 4.9,
+        "on_call_response_minutes": 4.2,
+        "missed_deadlines": 0
+      }
+    },
+    {
+      "id": "ATT-002",
+      "employee_id": "EMP-002",
+      "attendance_percentage": 98.4,
+      "on_time_rate": 98.0,
+      "reliability_indicators": {
+        "sprint_presence_pct": 97.5,
+        "meeting_engagement_score": 4.4,
+        "on_call_response_minutes": 8.5,
+        "missed_deadlines": 0
+      }
+    },
+    {
+      "id": "ATT-003",
+      "employee_id": "EMP-003",
+      "attendance_percentage": 99.0,
+      "on_time_rate": 99.1,
+      "reliability_indicators": {
+        "sprint_presence_pct": 100.0,
+        "meeting_engagement_score": 4.8,
+        "on_call_response_minutes": 5.0,
+        "missed_deadlines": 0
+      }
+    }
+  ],
+  "business_impact": [
+    {
+      "id": "BI-001",
+      "employee_id": "EMP-001",
+      "measurable_impact": "Cloud Infrastructure Cost Reduction",
+      "metric": "Annualized Infrastructure Savings",
+      "value": "$420,000 / year",
+      "evidence": "Rightsized container compute pools, implemented connection pooling, and optimized Redis cache hit ratios."
+    },
+    {
+      "id": "BI-002",
+      "employee_id": "EMP-001",
+      "measurable_impact": "Checkout Funnel Latency Reduction",
+      "metric": "p99 Response Latency",
+      "value": "45% reduction",
+      "evidence": "Cut API response latency from 480ms to 264ms across all peak holiday shopping windows."
+    },
+    {
+      "id": "BI-003",
+      "employee_id": "EMP-002",
+      "measurable_impact": "BI Reporting Automation",
+      "metric": "Analyst Hours Saved",
+      "value": "15 hrs / week",
+      "evidence": "Automated 8 manual financial data extracts into self-updating Snowflake data marts."
+    },
+    {
+      "id": "BI-004",
+      "employee_id": "EMP-003",
+      "measurable_impact": "Enterprise User Onboarding Drop-off Mitigation",
+      "metric": "Onboarding Completion Rate",
+      "value": "Reduced drop-off from 34% to 8%",
+      "evidence": "Redesigned onboarding flows and guidance tooltips; verified through Mixpanel funnel analytics."
+    },
+    {
+      "id": "BI-005",
+      "employee_id": "EMP-003",
+      "measurable_impact": "Trial-to-Paid Subscription Conversion",
+      "metric": "Paid Conversion Lift",
+      "value": "+28% conversion lift",
+      "evidence": "Streamlined checkout and workspace invitation flows leading to $1.2M in net new ARR."
+    }
+  ],
+  "manager_evaluations": [
+    {
+      "id": "ME-001",
+      "employee_id": "EMP-001",
+      "manager": "David Vance",
+      "rating": 4.8,
+      "evaluation_cycle": "H1 2026",
+      "comments": "Elena has consistently outperformed all expectations this cycle. She operates as our de facto Tech Lead, delivers pristine architecture, and mentors the squad. Strongly recommend promotion to Tech Lead.",
+      "evaluation_date": "2026-06-15"
+    },
+    {
+      "id": "ME-002",
+      "employee_id": "EMP-002",
+      "manager": "Sarah Jenkins",
+      "rating": 4.1,
+      "evaluation_cycle": "H1 2026",
+      "comments": "Marcus is an outstanding contributor who has mastered our day-to-day data pipelines. To qualify for Senior Data Engineer, he needs to advance his knowledge of distributed streaming frameworks and Kubernetes cluster operations.",
+      "evaluation_date": "2026-06-18"
+    },
+    {
+      "id": "ME-003",
+      "employee_id": "EMP-003",
+      "manager": "Robert Sterling",
+      "rating": 2.8,
+      "evaluation_cycle": "H1 2026",
+      "comments": "Priya produces good designs but had minor timeline friction during our last redesign retro. Needs more focus on meeting sprint deadlines.",
+      "evaluation_date": "2026-06-20"
+    }
+  ]
+}

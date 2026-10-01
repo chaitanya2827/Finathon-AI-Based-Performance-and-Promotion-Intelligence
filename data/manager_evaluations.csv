@@ -1,0 +1,31 @@
+id,employee_id,manager_name,rating,evaluation_cycle,comments,evaluation_date
+ME_EMP001_1,EMP001,David Vance,4.8,2026-H1,"Elena consistently outperforms expectations. She operates as our de facto Tech Lead, delivers pristine architecture, and mentors others. Strong promotion candidate.",2026-06-15
+ME_EMP002_1,EMP002,Sarah Jenkins,4.1,2026-H1,"Marcus is an outstanding contributor who has mastered day-to-day batch pipelines. To advance to Senior Data Engineer, he must build hands-on mastery in distributed systems and Kubernetes.",2026-06-18
+ME_EMP003_1,EMP003,Robert Sterling,2.8,2026-H1,Priya produces good designs but had minor timeline friction during our last sprint retro. Needs more focus on meeting sprint deadlines.,2026-06-20
+ME_EMP004_1,EMP004,Executive Committee,3.8,2026-H1,David Vance performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP005_1,EMP005,David Vance,4.3,2026-H1,Sarah Jenkins performs consistently in the Data department with solid accountability.,2026-06-22
+ME_EMP006_1,EMP006,David Vance,3.3,2026-H1,Robert Sterling performs consistently in the Design department with solid accountability.,2026-06-22
+ME_EMP007_1,EMP007,David Vance,3.8,2026-H1,Alexander Wright performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP008_1,EMP008,Elena Rostova,4.3,2026-H1,Sophia Kim performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP009_1,EMP009,David Vance,3.3,2026-H1,Rahul Verma performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP010_1,EMP010,David Vance,3.8,2026-H1,Chloe Bennett performs consistently in the Product department with solid accountability.,2026-06-22
+ME_EMP011_1,EMP011,David Vance,4.3,2026-H1,Liam O'Connor performs consistently in the QA department with solid accountability.,2026-06-22
+ME_EMP012_1,EMP012,Sarah Jenkins,3.3,2026-H1,Maya Patel performs consistently in the Data department with solid accountability.,2026-06-22
+ME_EMP013_1,EMP013,Elena Rostova,3.8,2026-H1,Lucas Silva performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP014_1,EMP014,Priya Sharma,4.3,2026-H1,Olivia Martinez performs consistently in the Design department with solid accountability.,2026-06-22
+ME_EMP015_1,EMP015,Chloe Bennett,3.3,2026-H1,Ethan Davis performs consistently in the Operations department with solid accountability.,2026-06-22
+ME_EMP016_1,EMP016,David Vance,3.8,2026-H1,Ananya Iyer performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP017_1,EMP017,Sarah Jenkins,4.3,2026-H1,Noah Taylor performs consistently in the Data department with solid accountability.,2026-06-22
+ME_EMP018_1,EMP018,David Vance,3.3,2026-H1,Emma Watson performs consistently in the QA department with solid accountability.,2026-06-22
+ME_EMP019_1,EMP019,David Vance,3.8,2026-H1,Carlos Gomez performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP020_1,EMP020,David Vance,4.3,2026-H1,Fatimah Al-Mansoor performs consistently in the Product department with solid accountability.,2026-06-22
+ME_EMP021_1,EMP021,Alexander Wright,3.3,2026-H1,Benjamin Miller performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP022_1,EMP022,Priya Sharma,3.8,2026-H1,Zoe Anderson performs consistently in the Design department with solid accountability.,2026-06-22
+ME_EMP023_1,EMP023,David Vance,4.3,2026-H1,Vikram Singhania performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP024_1,EMP024,David Vance,3.3,2026-H1,Hannah Schmidt performs consistently in the HR department with solid accountability.,2026-06-22
+ME_EMP025_1,EMP025,David Vance,3.8,2026-H1,Daniel Lee performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP026_1,EMP026,Sarah Jenkins,4.3,2026-H1,Isabella Rossi performs consistently in the Data department with solid accountability.,2026-06-22
+ME_EMP027_1,EMP027,Chloe Bennett,3.3,2026-H1,James Wilson performs consistently in the Operations department with solid accountability.,2026-06-22
+ME_EMP028_1,EMP028,Alexander Wright,3.8,2026-H1,Aisha Khan performs consistently in the Engineering department with solid accountability.,2026-06-22
+ME_EMP029_1,EMP029,David Vance,4.3,2026-H1,Ryan Murphy performs consistently in the QA department with solid accountability.,2026-06-22
+ME_EMP030_1,EMP030,Chloe Bennett,3.3,2026-H1,Stephanie Clark performs consistently in the Marketing department with solid accountability.,2026-06-22

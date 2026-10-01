@@ -1,0 +1,34 @@
+id,employee_id,course_name,provider,completion_status,completion_date,skill_area
+TRN_EMP001_1,EMP001,Advanced Distributed Systems & High-Scale Architecture,TechCraft Institute,completed,2026-02-14,Architecture
+TRN_EMP001_2,EMP001,Engineering Leadership & People Development,Leadership Academy,completed,2026-04-20,Leadership
+TRN_EMP002_1,EMP002,Apache Spark & Streaming Data Architecture,Cloud Data Guild,completed,2026-01-25,Technical
+TRN_EMP002_2,EMP002,Kubernetes for Data Infrastructure,DevOps Academy,in_progress,,Cloud & DevOps
+TRN_EMP003_1,EMP003,Design Systems at Scale & Multi-Brand Governance,UX Leadership Institute,completed,2026-03-12,UX Design
+TRN_EMP003_2,EMP003,Executive Product Strategy & Design Metrics,Product Faculty,completed,2026-06-05,Leadership
+TRN_EMP004_1,EMP004,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP005_1,EMP005,Professional Competency in Data Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP006_1,EMP006,Professional Competency in Design Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP007_1,EMP007,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP008_1,EMP008,Professional Competency in Engineering Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP009_1,EMP009,Professional Competency in Engineering Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP010_1,EMP010,Professional Competency in Product Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP011_1,EMP011,Professional Competency in QA Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP012_1,EMP012,Professional Competency in Data Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP013_1,EMP013,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP014_1,EMP014,Professional Competency in Design Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP015_1,EMP015,Professional Competency in Operations Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP016_1,EMP016,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP017_1,EMP017,Professional Competency in Data Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP018_1,EMP018,Professional Competency in QA Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP019_1,EMP019,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP020_1,EMP020,Professional Competency in Product Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP021_1,EMP021,Professional Competency in Engineering Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP022_1,EMP022,Professional Competency in Design Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP023_1,EMP023,Professional Competency in Engineering Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP024_1,EMP024,Professional Competency in HR Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP025_1,EMP025,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP026_1,EMP026,Professional Competency in Data Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP027_1,EMP027,Professional Competency in Operations Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development
+TRN_EMP028_1,EMP028,Professional Competency in Engineering Practices,Corporate Learning Portal,in_progress,,Professional Development
+TRN_EMP029_1,EMP029,Professional Competency in QA Practices,Corporate Learning Portal,planned,,Professional Development
+TRN_EMP030_1,EMP030,Professional Competency in Marketing Practices,Corporate Learning Portal,completed,2026-03-15,Professional Development

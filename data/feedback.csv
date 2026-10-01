@@ -1,0 +1,63 @@
+id,employee_id,reviewer_type,rating,comments,sentiment
+FB_EMP001_1,EMP001,peer,4.9,Elena is the technical backbone of our squad. Her architecture clarity and patient mentoring raise the entire team bar.,positive
+FB_EMP001_2,EMP001,stakeholder,5.0,Elena's design docs are the gold standard for our organization. She already operates at Tech Lead caliber.,positive
+FB_EMP001_3,EMP001,peer,4.8,Great collaborator who bridges complex distributed systems trade-offs into actionable sprint tasks.,positive
+FB_EMP002_1,EMP002,peer,4.3,Marcus is exceptionally dependable on daily batch pipelines and writes immaculate SQL transformations.,positive
+FB_EMP002_2,EMP002,stakeholder,4.2,Great collaborator on data modeling. Would benefit from deeper expertise in distributed systems and cluster ops.,mixed
+FB_EMP003_1,EMP003,peer,4.9,"Priya produces the cleanest, most accessible component specs in the company. Working with her is a joy.",positive
+FB_EMP003_2,EMP003,stakeholder,4.8,Priya's customer research fundamentally transformed our enterprise portal adoption. She commands deep cross-functional respect.,positive
+FB_EMP003_3,EMP003,peer,4.8,"Visionary designer who proactively aligns engineering, product, and brand goals.",positive
+FB_EMP004_1,EMP004,peer,3.6,David Vance works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP004_2,EMP004,stakeholder,4.2,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP005_1,EMP005,peer,4.0,Sarah Jenkins works well within the Data team and consistently contributes to sprint goals.,neutral
+FB_EMP005_2,EMP005,stakeholder,4.8,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP006_1,EMP006,peer,4.4,Robert Sterling works well within the Design team and consistently contributes to sprint goals.,mixed
+FB_EMP006_2,EMP006,stakeholder,3.8,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP007_1,EMP007,peer,4.8,Alexander Wright works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP007_2,EMP007,stakeholder,4.4,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP008_1,EMP008,peer,3.7,Sophia Kim works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP008_2,EMP008,stakeholder,3.4,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP009_1,EMP009,peer,4.1,Rahul Verma works well within the Engineering team and consistently contributes to sprint goals.,neutral
+FB_EMP009_2,EMP009,stakeholder,4.0,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP010_1,EMP010,peer,4.5,Chloe Bennett works well within the Product team and consistently contributes to sprint goals.,mixed
+FB_EMP010_2,EMP010,stakeholder,4.6,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP011_1,EMP011,peer,4.9,Liam O'Connor works well within the QA team and consistently contributes to sprint goals.,positive
+FB_EMP011_2,EMP011,stakeholder,3.6,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP012_1,EMP012,peer,3.8,Maya Patel works well within the Data team and consistently contributes to sprint goals.,positive
+FB_EMP012_2,EMP012,stakeholder,4.2,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP013_1,EMP013,peer,4.2,Lucas Silva works well within the Engineering team and consistently contributes to sprint goals.,neutral
+FB_EMP013_2,EMP013,stakeholder,4.8,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP014_1,EMP014,peer,4.6,Olivia Martinez works well within the Design team and consistently contributes to sprint goals.,mixed
+FB_EMP014_2,EMP014,stakeholder,3.8,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP015_1,EMP015,peer,3.5,Ethan Davis works well within the Operations team and consistently contributes to sprint goals.,positive
+FB_EMP015_2,EMP015,stakeholder,4.4,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP016_1,EMP016,peer,3.9,Ananya Iyer works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP016_2,EMP016,stakeholder,3.4,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP017_1,EMP017,peer,4.3,Noah Taylor works well within the Data team and consistently contributes to sprint goals.,neutral
+FB_EMP017_2,EMP017,stakeholder,4.0,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP018_1,EMP018,peer,4.7,Emma Watson works well within the QA team and consistently contributes to sprint goals.,mixed
+FB_EMP018_2,EMP018,stakeholder,4.6,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP019_1,EMP019,peer,3.6,Carlos Gomez works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP019_2,EMP019,stakeholder,3.6,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP020_1,EMP020,peer,4.0,Fatimah Al-Mansoor works well within the Product team and consistently contributes to sprint goals.,positive
+FB_EMP020_2,EMP020,stakeholder,4.2,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP021_1,EMP021,peer,4.4,Benjamin Miller works well within the Engineering team and consistently contributes to sprint goals.,neutral
+FB_EMP021_2,EMP021,stakeholder,4.8,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP022_1,EMP022,peer,4.8,Zoe Anderson works well within the Design team and consistently contributes to sprint goals.,mixed
+FB_EMP022_2,EMP022,stakeholder,3.8,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP023_1,EMP023,peer,3.7,Vikram Singhania works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP023_2,EMP023,stakeholder,4.4,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP024_1,EMP024,peer,4.1,Hannah Schmidt works well within the HR team and consistently contributes to sprint goals.,positive
+FB_EMP024_2,EMP024,stakeholder,3.4,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP025_1,EMP025,peer,4.5,Daniel Lee works well within the Engineering team and consistently contributes to sprint goals.,neutral
+FB_EMP025_2,EMP025,stakeholder,4.0,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP026_1,EMP026,peer,4.9,Isabella Rossi works well within the Data team and consistently contributes to sprint goals.,mixed
+FB_EMP026_2,EMP026,stakeholder,4.6,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP027_1,EMP027,peer,3.8,James Wilson works well within the Operations team and consistently contributes to sprint goals.,positive
+FB_EMP027_2,EMP027,stakeholder,3.6,Solid functional collaboration. Clear communication during cross-team dependencies.,positive
+FB_EMP028_1,EMP028,peer,4.2,Aisha Khan works well within the Engineering team and consistently contributes to sprint goals.,positive
+FB_EMP028_2,EMP028,stakeholder,4.2,Solid functional collaboration. Clear communication during cross-team dependencies.,neutral
+FB_EMP029_1,EMP029,peer,4.6,Ryan Murphy works well within the QA team and consistently contributes to sprint goals.,neutral
+FB_EMP029_2,EMP029,stakeholder,4.8,Solid functional collaboration. Clear communication during cross-team dependencies.,mixed
+FB_EMP030_1,EMP030,peer,3.5,Stephanie Clark works well within the Marketing team and consistently contributes to sprint goals.,mixed
+FB_EMP030_2,EMP030,stakeholder,3.8,Solid functional collaboration. Clear communication during cross-team dependencies.,positive

@@ -1,0 +1,31 @@
+id,employee_id,period,working_days,days_present,attendance_pct,reliability_notes
+ATT_EMP001,EMP001,2026-H1,125,124,99.2,Flawless reliability. 100% sprint attendance and zero missed critical on-call shifts.
+ATT_EMP002,EMP002,2026-H1,125,123,98.4,Dependable attendance; actively covers scheduled data on-call rotations.
+ATT_EMP003,EMP003,2026-H1,125,124,99.0,Exemplary reliability and punctual stakeholder meeting leadership.
+ATT_EMP004,EMP004,2026-H1,125,110,88.0,Attendance record within company norms (88.0% attendance).
+ATT_EMP005,EMP005,2026-H1,125,118,95.0,Attendance record within company norms (95.0% attendance).
+ATT_EMP006,EMP006,2026-H1,125,102,82.0,Attendance record within company norms (82.0% attendance).
+ATT_EMP007,EMP007,2026-H1,125,111,89.0,Attendance record within company norms (89.0% attendance).
+ATT_EMP008,EMP008,2026-H1,125,120,96.0,Attendance record within company norms (96.0% attendance).
+ATT_EMP009,EMP009,2026-H1,125,103,83.0,Attendance record within company norms (83.0% attendance).
+ATT_EMP010,EMP010,2026-H1,125,112,90.0,Attendance record within company norms (90.0% attendance).
+ATT_EMP011,EMP011,2026-H1,125,121,97.0,Attendance record within company norms (97.0% attendance).
+ATT_EMP012,EMP012,2026-H1,125,105,84.0,Attendance record within company norms (84.0% attendance).
+ATT_EMP013,EMP013,2026-H1,125,95,76.5,Attendance record within company norms (76.5% attendance).
+ATT_EMP014,EMP014,2026-H1,125,122,98.0,Attendance record within company norms (98.0% attendance).
+ATT_EMP015,EMP015,2026-H1,125,106,85.0,Attendance record within company norms (85.0% attendance).
+ATT_EMP016,EMP016,2026-H1,125,115,92.0,Attendance record within company norms (92.0% attendance).
+ATT_EMP017,EMP017,2026-H1,125,123,99.0,Attendance record within company norms (99.0% attendance).
+ATT_EMP018,EMP018,2026-H1,125,107,86.0,Attendance record within company norms (86.0% attendance).
+ATT_EMP019,EMP019,2026-H1,125,116,93.0,Attendance record within company norms (93.0% attendance).
+ATT_EMP020,EMP020,2026-H1,125,100,80.0,Attendance record within company norms (80.0% attendance).
+ATT_EMP021,EMP021,2026-H1,125,108,87.0,Attendance record within company norms (87.0% attendance).
+ATT_EMP022,EMP022,2026-H1,125,117,94.0,Attendance record within company norms (94.0% attendance).
+ATT_EMP023,EMP023,2026-H1,125,101,81.0,Attendance record within company norms (81.0% attendance).
+ATT_EMP024,EMP024,2026-H1,125,110,88.0,Attendance record within company norms (88.0% attendance).
+ATT_EMP025,EMP025,2026-H1,125,118,95.0,Attendance record within company norms (95.0% attendance).
+ATT_EMP026,EMP026,2026-H1,125,102,82.0,Attendance record within company norms (82.0% attendance).
+ATT_EMP027,EMP027,2026-H1,125,101,81.2,Attendance record within company norms (81.2% attendance).
+ATT_EMP028,EMP028,2026-H1,125,120,96.0,Attendance record within company norms (96.0% attendance).
+ATT_EMP029,EMP029,2026-H1,125,103,83.0,Attendance record within company norms (83.0% attendance).
+ATT_EMP030,EMP030,2026-H1,125,112,90.0,Attendance record within company norms (90.0% attendance).

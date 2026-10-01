@@ -1,0 +1,168 @@
+id,employee_id,skill_id,proficiency_level,verification_proof
+ES_EMP001_1,EMP001,SKILL_PY,5,Author of core async event bus; 5 years production Python.
+ES_EMP001_2,EMP001,SKILL_SYS_DESIGN,5,Authored 4 approved company-wide Architecture Decision Records.
+ES_EMP001_3,EMP001,SKILL_LEADERSHIP,4,Led engineering scrum squad of 6; coordinated technical release plans.
+ES_EMP001_4,EMP001,SKILL_COMM,5,Keynote speaker at internal Tech Summit; published engineering tech blog.
+ES_EMP001_5,EMP001,SKILL_PROJ_MGT,4,Tracked multi-sprint backlog and milestone dependency risks.
+ES_EMP001_6,EMP001,SKILL_K8S,4,Configured Helm charts and canary deployments in production.
+ES_EMP001_7,EMP001,SKILL_TESTING,5,Maintained 94% unit & integration test coverage on payment services.
+ES_EMP002_1,EMP002,SKILL_PY,4,Authored automated ingestion DAGs and unit-tested data cleaning scripts.
+ES_EMP002_2,EMP002,SKILL_SQL,4,Optimized multi-terabyte query execution plans; certified Snowflake specialist.
+ES_EMP002_3,EMP002,SKILL_DATA_ANALYSIS,4,Constructed operational metrics dashboards and trend reporting models.
+ES_EMP002_4,EMP002,SKILL_COLLAB,4,Active participant in daily standups and engineering knowledge transfers.
+ES_EMP002_5,EMP002,SKILL_DIST_SYS,2,Basic exposure to Kafka consumer groups; has not designed partitioned stream topologies.
+ES_EMP002_6,EMP002,SKILL_K8S,1,Limited to viewing deployment logs via kubectl; lacks container pod manifest experience.
+ES_EMP003_1,EMP003,SKILL_UX,5,Designed enterprise design system adopted org-wide; Nielsen Norman UX Master Certified.
+ES_EMP003_2,EMP003,SKILL_LEADERSHIP,4,Mentors 3 product designers; established weekly corporate design critique cadence.
+ES_EMP003_3,EMP003,SKILL_COMM,5,Regular presenter to executive leadership; leads customer interview readout sessions.
+ES_EMP003_4,EMP003,SKILL_PROJ_MGT,4,Maintains design roadmap across 4 product suites with zero backlog blockers.
+ES_EMP003_5,EMP003,SKILL_COLLAB,5,Praised by engineering teams for pixel-perfect specs and interactive code prototypes.
+ES_EMP004_1,EMP004,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP004_2,EMP004,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP004_3,EMP004,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP004_4,EMP004,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP004_5,EMP004,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP004_6,EMP004,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP005_1,EMP005,SKILL_PY,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP005_2,EMP005,SKILL_SQL,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP005_3,EMP005,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP005_4,EMP005,SKILL_DIST_SYS,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP005_5,EMP005,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP005_6,EMP005,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP006_1,EMP006,SKILL_UX,3,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP006_2,EMP006,SKILL_COMM,4,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP006_3,EMP006,SKILL_COLLAB,2,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP006_4,EMP006,SKILL_PROJ_MGT,3,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP006_5,EMP006,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP007_1,EMP007,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP007_2,EMP007,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP007_3,EMP007,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP007_4,EMP007,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP007_5,EMP007,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP007_6,EMP007,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP008_1,EMP008,SKILL_PY,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP008_2,EMP008,SKILL_SYS_DESIGN,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP008_3,EMP008,SKILL_TESTING,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP008_4,EMP008,SKILL_COLLAB,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP008_5,EMP008,SKILL_COMM,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP008_6,EMP008,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP009_1,EMP009,SKILL_PY,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP009_2,EMP009,SKILL_SYS_DESIGN,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP009_3,EMP009,SKILL_TESTING,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP009_4,EMP009,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP009_5,EMP009,SKILL_COMM,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP009_6,EMP009,SKILL_PROB_SOLV,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP010_1,EMP010,SKILL_PROJ_MGT,4,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP010_2,EMP010,SKILL_COMM,2,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP010_3,EMP010,SKILL_LEADERSHIP,3,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP010_4,EMP010,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP010_5,EMP010,SKILL_COLLAB,2,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP011_1,EMP011,SKILL_TESTING,2,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP011_2,EMP011,SKILL_PY,3,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP011_3,EMP011,SKILL_SQL,4,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP011_4,EMP011,SKILL_COLLAB,2,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP011_5,EMP011,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP012_1,EMP012,SKILL_PY,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP012_2,EMP012,SKILL_SQL,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP012_3,EMP012,SKILL_DATA_ANALYSIS,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP012_4,EMP012,SKILL_DIST_SYS,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP012_5,EMP012,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP012_6,EMP012,SKILL_PROB_SOLV,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP013_1,EMP013,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP013_2,EMP013,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP013_3,EMP013,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP013_4,EMP013,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP013_5,EMP013,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP013_6,EMP013,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP014_1,EMP014,SKILL_UX,2,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP014_2,EMP014,SKILL_COMM,3,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP014_3,EMP014,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP014_4,EMP014,SKILL_PROJ_MGT,2,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP014_5,EMP014,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP015_1,EMP015,SKILL_PROJ_MGT,3,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP015_2,EMP015,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP015_3,EMP015,SKILL_COMM,2,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP015_4,EMP015,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP015_5,EMP015,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP016_1,EMP016,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP016_2,EMP016,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP016_3,EMP016,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP016_4,EMP016,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP016_5,EMP016,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP016_6,EMP016,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP017_1,EMP017,SKILL_PY,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP017_2,EMP017,SKILL_SQL,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP017_3,EMP017,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP017_4,EMP017,SKILL_DIST_SYS,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP017_5,EMP017,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP017_6,EMP017,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP018_1,EMP018,SKILL_TESTING,3,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP018_2,EMP018,SKILL_PY,4,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP018_3,EMP018,SKILL_SQL,2,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP018_4,EMP018,SKILL_COLLAB,3,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP018_5,EMP018,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP019_1,EMP019,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP019_2,EMP019,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP019_3,EMP019,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP019_4,EMP019,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP019_5,EMP019,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP019_6,EMP019,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP020_1,EMP020,SKILL_PROJ_MGT,2,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP020_2,EMP020,SKILL_COMM,3,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP020_3,EMP020,SKILL_LEADERSHIP,4,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP020_4,EMP020,SKILL_DATA_ANALYSIS,2,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP020_5,EMP020,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Product deliverables.
+ES_EMP021_1,EMP021,SKILL_PY,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP021_2,EMP021,SKILL_SYS_DESIGN,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP021_3,EMP021,SKILL_TESTING,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP021_4,EMP021,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP021_5,EMP021,SKILL_COMM,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP021_6,EMP021,SKILL_PROB_SOLV,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP022_1,EMP022,SKILL_UX,4,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP022_2,EMP022,SKILL_COMM,2,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP022_3,EMP022,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP022_4,EMP022,SKILL_PROJ_MGT,4,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP022_5,EMP022,SKILL_PROB_SOLV,2,Demonstrated proficiency on quarterly Design deliverables.
+ES_EMP023_1,EMP023,SKILL_PY,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP023_2,EMP023,SKILL_SYS_DESIGN,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP023_3,EMP023,SKILL_TESTING,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP023_4,EMP023,SKILL_COLLAB,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP023_5,EMP023,SKILL_COMM,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP023_6,EMP023,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP024_1,EMP024,SKILL_COMM,3,Demonstrated proficiency on quarterly HR deliverables.
+ES_EMP024_2,EMP024,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly HR deliverables.
+ES_EMP024_3,EMP024,SKILL_COLLAB,2,Demonstrated proficiency on quarterly HR deliverables.
+ES_EMP024_4,EMP024,SKILL_PROJ_MGT,3,Demonstrated proficiency on quarterly HR deliverables.
+ES_EMP024_5,EMP024,SKILL_LEADERSHIP,4,Demonstrated proficiency on quarterly HR deliverables.
+ES_EMP025_1,EMP025,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP025_2,EMP025,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP025_3,EMP025,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP025_4,EMP025,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP025_5,EMP025,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP025_6,EMP025,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP026_1,EMP026,SKILL_PY,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP026_2,EMP026,SKILL_SQL,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP026_3,EMP026,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP026_4,EMP026,SKILL_DIST_SYS,2,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP026_5,EMP026,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP026_6,EMP026,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Data deliverables.
+ES_EMP027_1,EMP027,SKILL_PROJ_MGT,3,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP027_2,EMP027,SKILL_DATA_ANALYSIS,4,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP027_3,EMP027,SKILL_COMM,2,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP027_4,EMP027,SKILL_COLLAB,3,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP027_5,EMP027,SKILL_PROB_SOLV,4,Demonstrated proficiency on quarterly Operations deliverables.
+ES_EMP028_1,EMP028,SKILL_PY,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP028_2,EMP028,SKILL_SYS_DESIGN,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP028_3,EMP028,SKILL_TESTING,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP028_4,EMP028,SKILL_COLLAB,4,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP028_5,EMP028,SKILL_COMM,2,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP028_6,EMP028,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly Engineering deliverables.
+ES_EMP029_1,EMP029,SKILL_TESTING,2,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP029_2,EMP029,SKILL_PY,3,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP029_3,EMP029,SKILL_SQL,4,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP029_4,EMP029,SKILL_COLLAB,2,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP029_5,EMP029,SKILL_PROB_SOLV,3,Demonstrated proficiency on quarterly QA deliverables.
+ES_EMP030_1,EMP030,SKILL_DATA_ANALYSIS,3,Demonstrated proficiency on quarterly Marketing deliverables.
+ES_EMP030_2,EMP030,SKILL_COMM,4,Demonstrated proficiency on quarterly Marketing deliverables.
+ES_EMP030_3,EMP030,SKILL_COLLAB,2,Demonstrated proficiency on quarterly Marketing deliverables.
+ES_EMP030_4,EMP030,SKILL_PROJ_MGT,3,Demonstrated proficiency on quarterly Marketing deliverables.
